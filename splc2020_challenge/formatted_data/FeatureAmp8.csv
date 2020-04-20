@@ -1,0 +1,3 @@
+"featureamp";"choosefile";"playengine";"gui";"volumecontrol";"skiptrack";"removetrack";"wav";"reorderplaylist";"playlist";"control";"light";"saveandloadplaylist";"filesupport";"queuetrack";"progressbar";"mute";"showtime";"loadfolder";"tracktime";"shufflerepeat";"ogg";"mp3";"skins";"dark";"clearplaylist";"showcover";"test"
+FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;"OK"
+TRUE;TRUE;TRUE;TRUE;FALSE;FALSE;FALSE;TRUE;FALSE;FALSE;FALSE;TRUE;FALSE;TRUE;FALSE;FALSE;FALSE;TRUE;FALSE;TRUE;FALSE;TRUE;TRUE;TRUE;FALSE;FALSE;FALSE;"KO"

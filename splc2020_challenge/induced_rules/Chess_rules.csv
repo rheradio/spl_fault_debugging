@@ -1,0 +1,4 @@
+"rule"; "support"; "interactions"; "percentage"
+"ai_player=TRUE"; 4; 1; 50
+"online_player=TRUE"; 4; 1; 50
+"offline_player=TRUE"; 4; 1; 50

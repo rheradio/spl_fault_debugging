@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1587404420518.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "968130715",
+    "id" : "DB43AE6A",
+    "lastKnownWriteTime" : 1587404872,
+    "last_content_update" : 1587404872673,
+    "path" : "D:/spl/collaborations/sevilla/github/splc2020_challenge/script_code/induce_rules.R",
+    "project_path" : "induce_rules.R",
+    "properties" : {
+        "cursorPosition" : "84,16",
+        "scrollLine" : "76"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

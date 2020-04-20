@@ -1,0 +1,5 @@
+"paycard";"logging";"maximumrecord";"lockout";"test"
+FALSE;FALSE;FALSE;FALSE;"OK"
+TRUE;FALSE;FALSE;TRUE;"KO"
+TRUE;TRUE;FALSE;TRUE;"KO"
+TRUE;TRUE;TRUE;TRUE;"KO"

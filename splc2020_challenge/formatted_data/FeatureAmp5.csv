@@ -1,0 +1,4 @@
+"featureamp";"base";"gui";"filesupport";"volumecontrol";"skiptrack";"removetrack";"queueremove";"reorderplaylist";"playlist";"light";"saveandloadplaylist";"queuetrack";"mute";"progressbar";"progress";"showtime";"playlistcontrols";"showcover";"loadfolder";"skiprepeat";"shufflerepeat";"wave";"mp3";"skins";"dark";"clearplaylist";"test"
+FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;"OK"
+TRUE;TRUE;TRUE;TRUE;FALSE;FALSE;FALSE;FALSE;FALSE;FALSE;TRUE;FALSE;FALSE;FALSE;FALSE;TRUE;TRUE;FALSE;FALSE;FALSE;FALSE;FALSE;TRUE;FALSE;TRUE;FALSE;FALSE;"KO"
+TRUE;TRUE;TRUE;TRUE;TRUE;FALSE;FALSE;FALSE;FALSE;FALSE;TRUE;FALSE;FALSE;TRUE;TRUE;TRUE;FALSE;FALSE;TRUE;FALSE;FALSE;FALSE;TRUE;TRUE;TRUE;FALSE;FALSE;"KO"
