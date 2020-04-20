@@ -40,4 +40,5 @@ Our experimental data is organized in the following directories:
 * [script_code](https://github.com/rheradio/spl_fault_debugging/tree/master/splc2020_challenge/script_code) includes two scripts written in the R language:
   + [format_data.r](https://github.com/rheradio/spl_fault_debugging/blob/master/splc2020_challenge/script_code/format_data.r) formats that original sparsed data into more simple [.csv files](https://github.com/rheradio/spl_fault_debugging/tree/master/splc2020_challenge/formatted_data), one per model in the bechmark.
   + [induce_rules.r](https://github.com/rheradio/spl_fault_debugging/blob/master/splc2020_challenge/script_code/induce_rules.R) induces the rules that explain the faults detected in the test cases.
+ * [formatted_data](https://github.com/rheradio/spl_fault_debugging/tree/master/splc2020_challenge/formatted_data) stores the data formated with [format_data.r](https://github.com/rheradio/spl_fault_debugging/blob/master/splc2020_challenge/script_code/format_data.r).
  * [induced_rules](https://github.com/rheradio/spl_fault_debugging/tree/master/splc2020_challenge/induced_rules) includes the generated rules.
