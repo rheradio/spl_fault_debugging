@@ -1,0 +1,62 @@
+================================================
+ PART's performance on JHipster
+================================================
+
+ 
+   Cell Contents
+|-------------------------|
+|                       N |
+|           N / Row Total |
+|           N / Col Total |
+|         N / Table Total |
+|-------------------------|
+
+ 
+Total Observations in Table:  26256 
+
+ 
+             | predicted 
+      actual |        KO |        OK | Row Total | 
+-------------|-----------|-----------|-----------|
+          KO |      9123 |       253 |      9376 | 
+             |     0.973 |     0.027 |     0.357 | 
+             |     0.983 |     0.015 |           | 
+             |     0.347 |     0.010 |           | 
+-------------|-----------|-----------|-----------|
+          OK |       158 |     16722 |     16880 | 
+             |     0.009 |     0.991 |     0.643 | 
+             |     0.017 |     0.985 |           | 
+             |     0.006 |     0.637 |           | 
+-------------|-----------|-----------|-----------|
+Column Total |      9281 |     16975 |     26256 | 
+             |     0.353 |     0.647 |           | 
+-------------|-----------|-----------|-----------|
+
+ 
+Confusion Matrix and Statistics
+
+          Reference
+Prediction    KO    OK
+        KO  9123   253
+        OK   158 16722
+                                          
+               Accuracy : 0.9843          
+                 95% CI : (0.9828, 0.9858)
+    No Information Rate : 0.6465          
+    P-Value [Acc > NIR] : < 2.2e-16       
+                                          
+                  Kappa : 0.9658          
+                                          
+ Mcnemar's Test P-Value : 3.541e-06       
+                                          
+            Sensitivity : 0.9830          
+            Specificity : 0.9851          
+         Pos Pred Value : 0.9730          
+         Neg Pred Value : 0.9906          
+             Prevalence : 0.3535          
+         Detection Rate : 0.3475          
+   Detection Prevalence : 0.3571          
+      Balanced Accuracy : 0.9840          
+                                          
+       'Positive' Class : KO              
+                                          

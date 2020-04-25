@@ -17,10 +17,10 @@ RULES_DIR <- "../induced_rules/"
 # Directory where plots will be generated
 STATISTICS_DIR <- "../rule_statistics/"
 
-algorithms <- c("LEM2", "CN2", "AQ")
+algorithms <- c("LEM2", "CN2", "AQ", "JRip", "PART")
 
 for (a in algorithms) {
-  data <- read.csv(str_c(RULES_DIR, a, "Rules.csv"), sep=";") 
+  data <- read.csv(str_c(RULES_DIR, a, "StdRules.csv"), sep=";") 
 
   #############################################################################################
   # Analyzing feature interactions

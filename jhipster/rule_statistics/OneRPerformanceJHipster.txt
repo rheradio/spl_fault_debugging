@@ -1,0 +1,62 @@
+================================================
+ OneR's performance on JHipster
+================================================
+
+ 
+   Cell Contents
+|-------------------------|
+|                       N |
+|           N / Row Total |
+|           N / Col Total |
+|         N / Table Total |
+|-------------------------|
+
+ 
+Total Observations in Table:  26256 
+
+ 
+             | predicted 
+      actual |        KO |        OK | Row Total | 
+-------------|-----------|-----------|-----------|
+          KO |      4114 |      5262 |      9376 | 
+             |     0.439 |     0.561 |     0.357 | 
+             |     0.917 |     0.242 |           | 
+             |     0.157 |     0.200 |           | 
+-------------|-----------|-----------|-----------|
+          OK |       374 |     16506 |     16880 | 
+             |     0.022 |     0.978 |     0.643 | 
+             |     0.083 |     0.758 |           | 
+             |     0.014 |     0.629 |           | 
+-------------|-----------|-----------|-----------|
+Column Total |      4488 |     21768 |     26256 | 
+             |     0.171 |     0.829 |           | 
+-------------|-----------|-----------|-----------|
+
+ 
+Confusion Matrix and Statistics
+
+          Reference
+Prediction    KO    OK
+        KO  4114  5262
+        OK   374 16506
+                                          
+               Accuracy : 0.7853          
+                 95% CI : (0.7803, 0.7903)
+    No Information Rate : 0.8291          
+    P-Value [Acc > NIR] : 1               
+                                          
+                  Kappa : 0.4712          
+                                          
+ Mcnemar's Test P-Value : <2e-16          
+                                          
+            Sensitivity : 0.9167          
+            Specificity : 0.7583          
+         Pos Pred Value : 0.4388          
+         Neg Pred Value : 0.9778          
+             Prevalence : 0.1709          
+         Detection Rate : 0.1567          
+   Detection Prevalence : 0.3571          
+      Balanced Accuracy : 0.8375          
+                                          
+       'Positive' Class : KO              
+                                          

@@ -1,0 +1,62 @@
+================================================
+ JRip's performance on JHipster
+================================================
+
+ 
+   Cell Contents
+|-------------------------|
+|                       N |
+|           N / Row Total |
+|           N / Col Total |
+|         N / Table Total |
+|-------------------------|
+
+ 
+Total Observations in Table:  26256 
+
+ 
+             | predicted 
+      actual |        KO |        OK | Row Total | 
+-------------|-----------|-----------|-----------|
+          KO |      8363 |      1013 |      9376 | 
+             |     0.892 |     0.108 |     0.357 | 
+             |     0.997 |     0.057 |           | 
+             |     0.319 |     0.039 |           | 
+-------------|-----------|-----------|-----------|
+          OK |        29 |     16851 |     16880 | 
+             |     0.002 |     0.998 |     0.643 | 
+             |     0.003 |     0.943 |           | 
+             |     0.001 |     0.642 |           | 
+-------------|-----------|-----------|-----------|
+Column Total |      8392 |     17864 |     26256 | 
+             |     0.320 |     0.680 |           | 
+-------------|-----------|-----------|-----------|
+
+ 
+Confusion Matrix and Statistics
+
+          Reference
+Prediction    KO    OK
+        KO  8363  1013
+        OK    29 16851
+                                          
+               Accuracy : 0.9603          
+                 95% CI : (0.9579, 0.9626)
+    No Information Rate : 0.6804          
+    P-Value [Acc > NIR] : < 2.2e-16       
+                                          
+                  Kappa : 0.9115          
+                                          
+ Mcnemar's Test P-Value : < 2.2e-16       
+                                          
+            Sensitivity : 0.9965          
+            Specificity : 0.9433          
+         Pos Pred Value : 0.8920          
+         Neg Pred Value : 0.9983          
+             Prevalence : 0.3196          
+         Detection Rate : 0.3185          
+   Detection Prevalence : 0.3571          
+      Balanced Accuracy : 0.9699          
+                                          
+       'Positive' Class : KO              
+                                          

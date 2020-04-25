@@ -1,0 +1,62 @@
+================================================
+ CN2's performance on JHipster
+================================================
+
+ 
+   Cell Contents
+|-------------------------|
+|                       N |
+|           N / Row Total |
+|           N / Col Total |
+|         N / Table Total |
+|-------------------------|
+
+ 
+Total Observations in Table:  26256 
+
+ 
+             | predicted 
+      actual |        KO |        OK | Row Total | 
+-------------|-----------|-----------|-----------|
+          KO |      9374 |         2 |      9376 | 
+             |     1.000 |     0.000 |     0.357 | 
+             |     0.999 |     0.000 |           | 
+             |     0.357 |     0.000 |           | 
+-------------|-----------|-----------|-----------|
+          OK |         9 |     16871 |     16880 | 
+             |     0.001 |     0.999 |     0.643 | 
+             |     0.001 |     1.000 |           | 
+             |     0.000 |     0.643 |           | 
+-------------|-----------|-----------|-----------|
+Column Total |      9383 |     16873 |     26256 | 
+             |     0.357 |     0.643 |           | 
+-------------|-----------|-----------|-----------|
+
+ 
+Confusion Matrix and Statistics
+
+          Reference
+Prediction    KO    OK
+        KO  9374     2
+        OK     9 16871
+                                          
+               Accuracy : 0.9996          
+                 95% CI : (0.9993, 0.9998)
+    No Information Rate : 0.6426          
+    P-Value [Acc > NIR] : < 2e-16         
+                                          
+                  Kappa : 0.9991          
+                                          
+ Mcnemar's Test P-Value : 0.07044         
+                                          
+            Sensitivity : 0.9990          
+            Specificity : 0.9999          
+         Pos Pred Value : 0.9998          
+         Neg Pred Value : 0.9995          
+             Prevalence : 0.3574          
+         Detection Rate : 0.3570          
+   Detection Prevalence : 0.3571          
+      Balanced Accuracy : 0.9995          
+                                          
+       'Positive' Class : KO              
+                                          

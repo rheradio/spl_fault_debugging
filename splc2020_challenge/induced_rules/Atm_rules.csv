@@ -1,6 +1,0 @@
-"rule"; "support"; "interactions"; "percentage"
-"USER_INTERFACE=TRUE"; 64; 1; 80
-"LOGGING=TRUE"; 40; 1; 50
-"DEPOSITING=TRUE"; 40; 1; 50
-"WITHDRAWING=TRUE"; 40; 1; 50
-"BALANCE_INQUIRY=TRUE"; 40; 1; 50
