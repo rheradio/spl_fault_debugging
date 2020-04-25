@@ -1,0 +1,55 @@
+================================================
+ PART's performance on FeatureAmp6
+================================================
+
+ 
+   Cell Contents
+|-------------------------|
+|                       N |
+|         N / Table Total |
+|-------------------------|
+
+ 
+Total Observations in Table:  12 
+
+ 
+                   | prediction 
+test_cases_df$test |        KO | Row Total | 
+-------------------|-----------|-----------|
+                KO |        11 |        11 | 
+                   |     0.917 |           | 
+-------------------|-----------|-----------|
+                OK |         1 |         1 | 
+                   |     0.083 |           | 
+-------------------|-----------|-----------|
+      Column Total |        12 |        12 | 
+-------------------|-----------|-----------|
+
+ 
+Confusion Matrix and Statistics
+
+          Reference
+Prediction KO OK
+        KO 11  0
+        OK  1  0
+                                          
+               Accuracy : 0.9167          
+                 95% CI : (0.6152, 0.9979)
+    No Information Rate : 1               
+    P-Value [Acc > NIR] : 1               
+                                          
+                  Kappa : 0               
+                                          
+ Mcnemar's Test P-Value : 1               
+                                          
+            Sensitivity : 0.9167          
+            Specificity :     NA          
+         Pos Pred Value :     NA          
+         Neg Pred Value :     NA          
+             Prevalence : 1.0000          
+         Detection Rate : 0.9167          
+   Detection Prevalence : 0.9167          
+      Balanced Accuracy :     NA          
+                                          
+       'Positive' Class : KO              
+                                          

@@ -1,0 +1,5 @@
+base_featureamp:
+	FALSE	-> OK
+	TRUE	-> KO
+(77/77 instances correct)
+

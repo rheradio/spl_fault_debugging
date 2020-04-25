@@ -1,0 +1,55 @@
+================================================
+ OneR's performance on Sudoku
+================================================
+
+ 
+   Cell Contents
+|-------------------------|
+|                       N |
+|         N / Table Total |
+|-------------------------|
+
+ 
+Total Observations in Table:  20 
+
+ 
+                   | prediction 
+test_cases_df$test |        OK | Row Total | 
+-------------------|-----------|-----------|
+                KO |         4 |         4 | 
+                   |     0.200 |           | 
+-------------------|-----------|-----------|
+                OK |        16 |        16 | 
+                   |     0.800 |           | 
+-------------------|-----------|-----------|
+      Column Total |        20 |        20 | 
+-------------------|-----------|-----------|
+
+ 
+Confusion Matrix and Statistics
+
+          Reference
+Prediction KO OK
+        KO  0  4
+        OK  0 16
+                                          
+               Accuracy : 0.8             
+                 95% CI : (0.5634, 0.9427)
+    No Information Rate : 1               
+    P-Value [Acc > NIR] : 1.0000          
+                                          
+                  Kappa : 0               
+                                          
+ Mcnemar's Test P-Value : 0.1336          
+                                          
+            Sensitivity :  NA             
+            Specificity : 0.8             
+         Pos Pred Value :  NA             
+         Neg Pred Value :  NA             
+             Prevalence : 0.0             
+         Detection Rate : 0.0             
+   Detection Prevalence : 0.2             
+      Balanced Accuracy :  NA             
+                                          
+       'Positive' Class : KO              
+                                          

@@ -1,0 +1,62 @@
+================================================
+ AQ's performance on FeatureAmp9
+================================================
+
+ 
+   Cell Contents
+|-------------------------|
+|                       N |
+|           N / Row Total |
+|           N / Col Total |
+|         N / Table Total |
+|-------------------------|
+
+ 
+Total Observations in Table:  47 
+
+ 
+             | predicted 
+      actual |        KO |        OK | Row Total | 
+-------------|-----------|-----------|-----------|
+          KO |        46 |         0 |        46 | 
+             |     1.000 |     0.000 |     0.979 | 
+             |     1.000 |     0.000 |           | 
+             |     0.979 |     0.000 |           | 
+-------------|-----------|-----------|-----------|
+          OK |         0 |         1 |         1 | 
+             |     0.000 |     1.000 |     0.021 | 
+             |     0.000 |     1.000 |           | 
+             |     0.000 |     0.021 |           | 
+-------------|-----------|-----------|-----------|
+Column Total |        46 |         1 |        47 | 
+             |     0.979 |     0.021 |           | 
+-------------|-----------|-----------|-----------|
+
+ 
+Confusion Matrix and Statistics
+
+          Reference
+Prediction KO OK
+        KO 46  0
+        OK  0  1
+                                     
+               Accuracy : 1          
+                 95% CI : (0.9245, 1)
+    No Information Rate : 0.9787     
+    P-Value [Acc > NIR] : 0.3639     
+                                     
+                  Kappa : 1          
+                                     
+ Mcnemar's Test P-Value : NA         
+                                     
+            Sensitivity : 1.0000     
+            Specificity : 1.0000     
+         Pos Pred Value : 1.0000     
+         Neg Pred Value : 1.0000     
+             Prevalence : 0.9787     
+         Detection Rate : 0.9787     
+   Detection Prevalence : 0.9787     
+      Balanced Accuracy : 1.0000     
+                                     
+       'Positive' Class : KO         
+                                     

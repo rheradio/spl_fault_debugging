@@ -1,0 +1,6 @@
+"rule"; "interactions"; "support"; "coverage"
+"USER_INTERFACE=TRUE"; 1; 80; 81.01
+"LOGGING=TRUE"; 1; 10; 10.13
+"DEPOSITING=TRUE"; 1; 5; 5.06
+"WITHDRAWING=TRUE"; 1; 2.5; 2.53
+"LOGGING=FALSE"; 1; 1.25; 1.27

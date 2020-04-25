@@ -1,0 +1,62 @@
+================================================
+ CN2's performance on FeatureAmp6
+================================================
+
+ 
+   Cell Contents
+|-------------------------|
+|                       N |
+|           N / Row Total |
+|           N / Col Total |
+|         N / Table Total |
+|-------------------------|
+
+ 
+Total Observations in Table:  12 
+
+ 
+             | predicted 
+      actual |        KO |        OK | Row Total | 
+-------------|-----------|-----------|-----------|
+          KO |        11 |         0 |        11 | 
+             |     1.000 |     0.000 |     0.917 | 
+             |     1.000 |     0.000 |           | 
+             |     0.917 |     0.000 |           | 
+-------------|-----------|-----------|-----------|
+          OK |         0 |         1 |         1 | 
+             |     0.000 |     1.000 |     0.083 | 
+             |     0.000 |     1.000 |           | 
+             |     0.000 |     0.083 |           | 
+-------------|-----------|-----------|-----------|
+Column Total |        11 |         1 |        12 | 
+             |     0.917 |     0.083 |           | 
+-------------|-----------|-----------|-----------|
+
+ 
+Confusion Matrix and Statistics
+
+          Reference
+Prediction KO OK
+        KO 11  0
+        OK  0  1
+                                     
+               Accuracy : 1          
+                 95% CI : (0.7354, 1)
+    No Information Rate : 0.9167     
+    P-Value [Acc > NIR] : 0.352      
+                                     
+                  Kappa : 1          
+                                     
+ Mcnemar's Test P-Value : NA         
+                                     
+            Sensitivity : 1.0000     
+            Specificity : 1.0000     
+         Pos Pred Value : 1.0000     
+         Neg Pred Value : 1.0000     
+             Prevalence : 0.9167     
+         Detection Rate : 0.9167     
+   Detection Prevalence : 0.9167     
+      Balanced Accuracy : 1.0000     
+                                     
+       'Positive' Class : KO         
+                                     

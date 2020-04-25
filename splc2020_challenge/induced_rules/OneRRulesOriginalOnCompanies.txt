@@ -1,0 +1,4 @@
+TREE_STRUCTURE:
+	TRUE	-> OK
+(184/192 instances correct)
+

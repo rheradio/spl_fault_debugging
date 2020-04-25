@@ -1,0 +1,8 @@
+JRIP rules:
+===========
+
+(SOLVER = TRUE) and (EXTENDEDSUDOKU = TRUE) => test=KO (4.0/0.0)
+ => test=OK (16.0/0.0)
+
+Number of Rules : 2
+

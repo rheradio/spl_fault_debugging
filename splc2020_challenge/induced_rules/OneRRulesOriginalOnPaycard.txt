@@ -1,0 +1,5 @@
+paycard:
+	FALSE	-> OK
+	TRUE	-> KO
+(4/4 instances correct)
+

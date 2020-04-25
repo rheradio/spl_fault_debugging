@@ -1,0 +1,5 @@
+weichbrodt_featureamp:
+	FALSE	-> OK
+	TRUE	-> KO
+(47/47 instances correct)
+

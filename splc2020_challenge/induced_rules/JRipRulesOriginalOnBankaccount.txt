@@ -1,0 +1,8 @@
+JRIP rules:
+===========
+
+(TRANSACTION = TRUE) and (OVERDRAFT = TRUE) and (TRANSACTIONLOG = FALSE) and (DAILYLIMIT = TRUE) => test=KO (6.0/0.0)
+ => test=OK (139.0/0.0)
+
+Number of Rules : 2
+

@@ -1,0 +1,62 @@
+================================================
+ PART's performance on Sudoku
+================================================
+
+ 
+   Cell Contents
+|-------------------------|
+|                       N |
+|           N / Row Total |
+|           N / Col Total |
+|         N / Table Total |
+|-------------------------|
+
+ 
+Total Observations in Table:  20 
+
+ 
+             | predicted 
+      actual |        KO |        OK | Row Total | 
+-------------|-----------|-----------|-----------|
+          KO |         4 |         0 |         4 | 
+             |     1.000 |     0.000 |     0.200 | 
+             |     1.000 |     0.000 |           | 
+             |     0.200 |     0.000 |           | 
+-------------|-----------|-----------|-----------|
+          OK |         0 |        16 |        16 | 
+             |     0.000 |     1.000 |     0.800 | 
+             |     0.000 |     1.000 |           | 
+             |     0.000 |     0.800 |           | 
+-------------|-----------|-----------|-----------|
+Column Total |         4 |        16 |        20 | 
+             |     0.200 |     0.800 |           | 
+-------------|-----------|-----------|-----------|
+
+ 
+Confusion Matrix and Statistics
+
+          Reference
+Prediction KO OK
+        KO  4  0
+        OK  0 16
+                                     
+               Accuracy : 1          
+                 95% CI : (0.8316, 1)
+    No Information Rate : 0.8        
+    P-Value [Acc > NIR] : 0.01153    
+                                     
+                  Kappa : 1          
+                                     
+ Mcnemar's Test P-Value : NA         
+                                     
+            Sensitivity : 1.0        
+            Specificity : 1.0        
+         Pos Pred Value : 1.0        
+         Neg Pred Value : 1.0        
+             Prevalence : 0.2        
+         Detection Rate : 0.2        
+   Detection Prevalence : 0.2        
+      Balanced Accuracy : 1.0        
+                                     
+       'Positive' Class : KO         
+                                     

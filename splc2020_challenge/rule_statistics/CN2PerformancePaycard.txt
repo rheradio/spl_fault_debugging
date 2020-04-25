@@ -1,0 +1,62 @@
+================================================
+ CN2's performance on Paycard
+================================================
+
+ 
+   Cell Contents
+|-------------------------|
+|                       N |
+|           N / Row Total |
+|           N / Col Total |
+|         N / Table Total |
+|-------------------------|
+
+ 
+Total Observations in Table:  4 
+
+ 
+             | predicted 
+      actual |        KO |        OK | Row Total | 
+-------------|-----------|-----------|-----------|
+          KO |         3 |         0 |         3 | 
+             |     1.000 |     0.000 |     0.750 | 
+             |     1.000 |     0.000 |           | 
+             |     0.750 |     0.000 |           | 
+-------------|-----------|-----------|-----------|
+          OK |         0 |         1 |         1 | 
+             |     0.000 |     1.000 |     0.250 | 
+             |     0.000 |     1.000 |           | 
+             |     0.000 |     0.250 |           | 
+-------------|-----------|-----------|-----------|
+Column Total |         3 |         1 |         4 | 
+             |     0.750 |     0.250 |           | 
+-------------|-----------|-----------|-----------|
+
+ 
+Confusion Matrix and Statistics
+
+          Reference
+Prediction KO OK
+        KO  3  0
+        OK  0  1
+                                     
+               Accuracy : 1          
+                 95% CI : (0.3976, 1)
+    No Information Rate : 0.75       
+    P-Value [Acc > NIR] : 0.3164     
+                                     
+                  Kappa : 1          
+                                     
+ Mcnemar's Test P-Value : NA         
+                                     
+            Sensitivity : 1.00       
+            Specificity : 1.00       
+         Pos Pred Value : 1.00       
+         Neg Pred Value : 1.00       
+             Prevalence : 0.75       
+         Detection Rate : 0.75       
+   Detection Prevalence : 0.75       
+      Balanced Accuracy : 1.00       
+                                     
+       'Positive' Class : KO         
+                                     

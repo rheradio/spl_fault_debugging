@@ -1,0 +1,2 @@
+"rule"; "interactions"; "support"; "coverage"
+"TRANSACTION=TRUE & OVERDRAFT=TRUE & LOGGING=FALSE & DAILYLIMIT=TRUE"; 4; 4.14; 100.05

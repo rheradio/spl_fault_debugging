@@ -1,0 +1,7 @@
+JRIP rules:
+===========
+
+ => test=KO (41.0/1.0)
+
+Number of Rules : 1
+

@@ -1,0 +1,55 @@
+================================================
+ OneR's performance on Atm
+================================================
+
+ 
+   Cell Contents
+|-------------------------|
+|                       N |
+|         N / Table Total |
+|-------------------------|
+
+ 
+Total Observations in Table:  80 
+
+ 
+                   | prediction 
+test_cases_df$test |        KO | Row Total | 
+-------------------|-----------|-----------|
+                KO |        79 |        79 | 
+                   |     0.988 |           | 
+-------------------|-----------|-----------|
+                OK |         1 |         1 | 
+                   |     0.012 |           | 
+-------------------|-----------|-----------|
+      Column Total |        80 |        80 | 
+-------------------|-----------|-----------|
+
+ 
+Confusion Matrix and Statistics
+
+          Reference
+Prediction KO OK
+        KO 79  0
+        OK  1  0
+                                          
+               Accuracy : 0.9875          
+                 95% CI : (0.9323, 0.9997)
+    No Information Rate : 1               
+    P-Value [Acc > NIR] : 1               
+                                          
+                  Kappa : 0               
+                                          
+ Mcnemar's Test P-Value : 1               
+                                          
+            Sensitivity : 0.9875          
+            Specificity :     NA          
+         Pos Pred Value :     NA          
+         Neg Pred Value :     NA          
+             Prevalence : 1.0000          
+         Detection Rate : 0.9875          
+   Detection Prevalence : 0.9875          
+      Balanced Accuracy :     NA          
+                                          
+       'Positive' Class : KO              
+                                          

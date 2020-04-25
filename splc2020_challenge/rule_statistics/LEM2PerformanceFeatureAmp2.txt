@@ -1,0 +1,62 @@
+================================================
+ LEM2's performance on FeatureAmp2
+================================================
+
+ 
+   Cell Contents
+|-------------------------|
+|                       N |
+|           N / Row Total |
+|           N / Col Total |
+|         N / Table Total |
+|-------------------------|
+
+ 
+Total Observations in Table:  17 
+
+ 
+             | predicted 
+      actual |        KO |        OK | Row Total | 
+-------------|-----------|-----------|-----------|
+          KO |        15 |         0 |        15 | 
+             |     1.000 |     0.000 |     0.882 | 
+             |     1.000 |     0.000 |           | 
+             |     0.882 |     0.000 |           | 
+-------------|-----------|-----------|-----------|
+          OK |         0 |         2 |         2 | 
+             |     0.000 |     1.000 |     0.118 | 
+             |     0.000 |     1.000 |           | 
+             |     0.000 |     0.118 |           | 
+-------------|-----------|-----------|-----------|
+Column Total |        15 |         2 |        17 | 
+             |     0.882 |     0.118 |           | 
+-------------|-----------|-----------|-----------|
+
+ 
+Confusion Matrix and Statistics
+
+          Reference
+Prediction KO OK
+        KO 15  0
+        OK  0  2
+                                     
+               Accuracy : 1          
+                 95% CI : (0.8049, 1)
+    No Information Rate : 0.8824     
+    P-Value [Acc > NIR] : 0.1191     
+                                     
+                  Kappa : 1          
+                                     
+ Mcnemar's Test P-Value : NA         
+                                     
+            Sensitivity : 1.0000     
+            Specificity : 1.0000     
+         Pos Pred Value : 1.0000     
+         Neg Pred Value : 1.0000     
+             Prevalence : 0.8824     
+         Detection Rate : 0.8824     
+   Detection Prevalence : 0.8824     
+      Balanced Accuracy : 1.0000     
+                                     
+       'Positive' Class : KO         
+                                     

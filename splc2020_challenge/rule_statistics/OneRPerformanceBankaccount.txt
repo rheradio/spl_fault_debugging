@@ -1,0 +1,55 @@
+================================================
+ OneR's performance on Bankaccount
+================================================
+
+ 
+   Cell Contents
+|-------------------------|
+|                       N |
+|         N / Table Total |
+|-------------------------|
+
+ 
+Total Observations in Table:  145 
+
+ 
+                   | prediction 
+test_cases_df$test |        OK | Row Total | 
+-------------------|-----------|-----------|
+                KO |         6 |         6 | 
+                   |     0.041 |           | 
+-------------------|-----------|-----------|
+                OK |       139 |       139 | 
+                   |     0.959 |           | 
+-------------------|-----------|-----------|
+      Column Total |       145 |       145 | 
+-------------------|-----------|-----------|
+
+ 
+Confusion Matrix and Statistics
+
+          Reference
+Prediction  KO  OK
+        KO   0   6
+        OK   0 139
+                                          
+               Accuracy : 0.9586          
+                 95% CI : (0.9121, 0.9847)
+    No Information Rate : 1               
+    P-Value [Acc > NIR] : 1.00000         
+                                          
+                  Kappa : 0               
+                                          
+ Mcnemar's Test P-Value : 0.04123         
+                                          
+            Sensitivity :      NA         
+            Specificity : 0.95862         
+         Pos Pred Value :      NA         
+         Neg Pred Value :      NA         
+             Prevalence : 0.00000         
+         Detection Rate : 0.00000         
+   Detection Prevalence : 0.04138         
+      Balanced Accuracy :      NA         
+                                          
+       'Positive' Class : KO              
+                                          

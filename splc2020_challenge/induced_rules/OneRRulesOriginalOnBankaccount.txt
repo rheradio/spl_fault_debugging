@@ -1,0 +1,5 @@
+TRANSACTIONLOG:
+	FALSE	-> OK
+	TRUE	-> OK
+(139/145 instances correct)
+

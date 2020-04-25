@@ -1,0 +1,62 @@
+================================================
+ OneR's performance on FeatureAmp5
+================================================
+
+ 
+   Cell Contents
+|-------------------------|
+|                       N |
+|           N / Row Total |
+|           N / Col Total |
+|         N / Table Total |
+|-------------------------|
+
+ 
+Total Observations in Table:  3 
+
+ 
+             | predicted 
+      actual |        KO |        OK | Row Total | 
+-------------|-----------|-----------|-----------|
+          KO |         2 |         0 |         2 | 
+             |     1.000 |     0.000 |     0.667 | 
+             |     1.000 |     0.000 |           | 
+             |     0.667 |     0.000 |           | 
+-------------|-----------|-----------|-----------|
+          OK |         0 |         1 |         1 | 
+             |     0.000 |     1.000 |     0.333 | 
+             |     0.000 |     1.000 |           | 
+             |     0.000 |     0.333 |           | 
+-------------|-----------|-----------|-----------|
+Column Total |         2 |         1 |         3 | 
+             |     0.667 |     0.333 |           | 
+-------------|-----------|-----------|-----------|
+
+ 
+Confusion Matrix and Statistics
+
+          Reference
+Prediction KO OK
+        KO  2  0
+        OK  0  1
+                                     
+               Accuracy : 1          
+                 95% CI : (0.2924, 1)
+    No Information Rate : 0.6667     
+    P-Value [Acc > NIR] : 0.2963     
+                                     
+                  Kappa : 1          
+                                     
+ Mcnemar's Test P-Value : NA         
+                                     
+            Sensitivity : 1.0000     
+            Specificity : 1.0000     
+         Pos Pred Value : 1.0000     
+         Neg Pred Value : 1.0000     
+             Prevalence : 0.6667     
+         Detection Rate : 0.6667     
+   Detection Prevalence : 0.6667     
+      Balanced Accuracy : 1.0000     
+                                     
+       'Positive' Class : KO         
+                                     

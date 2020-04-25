@@ -1,0 +1,2 @@
+"rule"; "interactions"; "support"; "coverage"
+"(CUT_WHATEVER = TRUE) & (TOTAL_WALKER = TRUE) and (PRECEDENCE = TRUE)"; 2; 4.17; 100.08

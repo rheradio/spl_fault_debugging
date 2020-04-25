@@ -1,0 +1,2 @@
+"rule"; "interactions"; "support"; "coverage"
+"(SOLVER = TRUE) & (EXTENDEDSUDOKU = TRUE)"; 2; 20; 100

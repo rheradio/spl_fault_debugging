@@ -1,0 +1,13 @@
+PART decision list
+------------------
+
+CUT_WHATEVER = FALSE: OK (144.0)
+
+TOTAL_WALKER = FALSE: OK (32.0)
+
+PRECEDENCE = FALSE: OK (8.0)
+
+: KO (8.0)
+
+Number of Rules  : 	4
+

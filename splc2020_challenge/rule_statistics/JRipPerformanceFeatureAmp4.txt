@@ -1,0 +1,55 @@
+================================================
+ JRip's performance on FeatureAmp4
+================================================
+
+ 
+   Cell Contents
+|-------------------------|
+|                       N |
+|         N / Table Total |
+|-------------------------|
+
+ 
+Total Observations in Table:  77 
+
+ 
+                   | prediction 
+test_cases_df$test |        KO | Row Total | 
+-------------------|-----------|-----------|
+                KO |        76 |        76 | 
+                   |     0.987 |           | 
+-------------------|-----------|-----------|
+                OK |         1 |         1 | 
+                   |     0.013 |           | 
+-------------------|-----------|-----------|
+      Column Total |        77 |        77 | 
+-------------------|-----------|-----------|
+
+ 
+Confusion Matrix and Statistics
+
+          Reference
+Prediction KO OK
+        KO 76  0
+        OK  1  0
+                                          
+               Accuracy : 0.987           
+                 95% CI : (0.9298, 0.9997)
+    No Information Rate : 1               
+    P-Value [Acc > NIR] : 1               
+                                          
+                  Kappa : 0               
+                                          
+ Mcnemar's Test P-Value : 1               
+                                          
+            Sensitivity : 0.987           
+            Specificity :    NA           
+         Pos Pred Value :    NA           
+         Neg Pred Value :    NA           
+             Prevalence : 1.000           
+         Detection Rate : 0.987           
+   Detection Prevalence : 0.987           
+      Balanced Accuracy :    NA           
+                                          
+       'Positive' Class : KO              
+                                          

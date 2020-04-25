@@ -1,0 +1,5 @@
+LOGGING:
+	FALSE	-> KO
+	TRUE	-> KO
+(79/80 instances correct)
+

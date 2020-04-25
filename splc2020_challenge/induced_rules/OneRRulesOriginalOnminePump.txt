@@ -1,0 +1,5 @@
+base:
+	FALSE	-> OK
+	TRUE	-> KO
+(9/9 instances correct)
+

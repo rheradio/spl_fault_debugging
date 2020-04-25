@@ -1,0 +1,5 @@
+featureamp:
+	FALSE	-> OK
+	TRUE	-> KO
+(2/2 instances correct)
+

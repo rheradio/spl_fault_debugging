@@ -1,0 +1,55 @@
+================================================
+ OneR's performance on GPL
+================================================
+
+ 
+   Cell Contents
+|-------------------------|
+|                       N |
+|         N / Table Total |
+|-------------------------|
+
+ 
+Total Observations in Table:  71 
+
+ 
+                   | prediction 
+test_cases_df$test |        OK | Row Total | 
+-------------------|-----------|-----------|
+                KO |         4 |         4 | 
+                   |     0.056 |           | 
+-------------------|-----------|-----------|
+                OK |        67 |        67 | 
+                   |     0.944 |           | 
+-------------------|-----------|-----------|
+      Column Total |        71 |        71 | 
+-------------------|-----------|-----------|
+
+ 
+Confusion Matrix and Statistics
+
+          Reference
+Prediction KO OK
+        KO  0  4
+        OK  0 67
+                                         
+               Accuracy : 0.9437         
+                 95% CI : (0.862, 0.9844)
+    No Information Rate : 1              
+    P-Value [Acc > NIR] : 1.0000         
+                                         
+                  Kappa : 0              
+                                         
+ Mcnemar's Test P-Value : 0.1336         
+                                         
+            Sensitivity :      NA        
+            Specificity : 0.94366        
+         Pos Pred Value :      NA        
+         Neg Pred Value :      NA        
+             Prevalence : 0.00000        
+         Detection Rate : 0.00000        
+   Detection Prevalence : 0.05634        
+      Balanced Accuracy :      NA        
+                                         
+       'Positive' Class : KO             
+                                         

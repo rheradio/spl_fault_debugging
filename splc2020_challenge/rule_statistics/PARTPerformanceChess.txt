@@ -1,0 +1,55 @@
+================================================
+ PART's performance on Chess
+================================================
+
+ 
+   Cell Contents
+|-------------------------|
+|                       N |
+|         N / Table Total |
+|-------------------------|
+
+ 
+Total Observations in Table:  8 
+
+ 
+                   | prediction 
+test_cases_df$test |        KO | Row Total | 
+-------------------|-----------|-----------|
+                KO |         7 |         7 | 
+                   |     0.875 |           | 
+-------------------|-----------|-----------|
+                OK |         1 |         1 | 
+                   |     0.125 |           | 
+-------------------|-----------|-----------|
+      Column Total |         8 |         8 | 
+-------------------|-----------|-----------|
+
+ 
+Confusion Matrix and Statistics
+
+          Reference
+Prediction KO OK
+        KO  7  0
+        OK  1  0
+                                          
+               Accuracy : 0.875           
+                 95% CI : (0.4735, 0.9968)
+    No Information Rate : 1               
+    P-Value [Acc > NIR] : 1               
+                                          
+                  Kappa : 0               
+                                          
+ Mcnemar's Test P-Value : 1               
+                                          
+            Sensitivity : 0.875           
+            Specificity :    NA           
+         Pos Pred Value :    NA           
+         Neg Pred Value :    NA           
+             Prevalence : 1.000           
+         Detection Rate : 0.875           
+   Detection Prevalence : 0.875           
+      Balanced Accuracy :    NA           
+                                          
+       'Positive' Class : KO              
+                                          

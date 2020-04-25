@@ -1,0 +1,55 @@
+================================================
+ JRip's performance on minePump
+================================================
+
+ 
+   Cell Contents
+|-------------------------|
+|                       N |
+|         N / Table Total |
+|-------------------------|
+
+ 
+Total Observations in Table:  9 
+
+ 
+                   | prediction 
+test_cases_df$test |        KO | Row Total | 
+-------------------|-----------|-----------|
+                KO |         8 |         8 | 
+                   |     0.889 |           | 
+-------------------|-----------|-----------|
+                OK |         1 |         1 | 
+                   |     0.111 |           | 
+-------------------|-----------|-----------|
+      Column Total |         9 |         9 | 
+-------------------|-----------|-----------|
+
+ 
+Confusion Matrix and Statistics
+
+          Reference
+Prediction KO OK
+        KO  8  0
+        OK  1  0
+                                          
+               Accuracy : 0.8889          
+                 95% CI : (0.5175, 0.9972)
+    No Information Rate : 1               
+    P-Value [Acc > NIR] : 1               
+                                          
+                  Kappa : 0               
+                                          
+ Mcnemar's Test P-Value : 1               
+                                          
+            Sensitivity : 0.8889          
+            Specificity :     NA          
+         Pos Pred Value :     NA          
+         Neg Pred Value :     NA          
+             Prevalence : 1.0000          
+         Detection Rate : 0.8889          
+   Detection Prevalence : 0.8889          
+      Balanced Accuracy :     NA          
+                                          
+       'Positive' Class : KO              
+                                          

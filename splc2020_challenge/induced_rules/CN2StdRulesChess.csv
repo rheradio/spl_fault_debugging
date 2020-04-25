@@ -1,0 +1,4 @@
+"rule"; "interactions"; "support"; "coverage"
+"ai_player=TRUE"; 1; 50; 57.14
+"online_player=TRUE"; 1; 25; 28.57
+"ai_player=FALSE"; 1; 12.5; 14.29

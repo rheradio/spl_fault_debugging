@@ -1,0 +1,5 @@
+time:
+	FALSE	-> OK
+	TRUE	-> KO
+(41/41 instances correct)
+

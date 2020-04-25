@@ -1,0 +1,8 @@
+JRIP rules:
+===========
+
+(STRONGLYCONNECTED = TRUE) and (WEIGHTED = FALSE) => test=KO (4.0/0.0)
+ => test=OK (67.0/0.0)
+
+Number of Rules : 2
+

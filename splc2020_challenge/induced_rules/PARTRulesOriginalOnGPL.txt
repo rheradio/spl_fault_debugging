@@ -1,0 +1,11 @@
+PART decision list
+------------------
+
+STRONGLYCONNECTED = FALSE: OK (63.0)
+
+WEIGHTED = FALSE: KO (4.0)
+
+: OK (4.0)
+
+Number of Rules  : 	3
+

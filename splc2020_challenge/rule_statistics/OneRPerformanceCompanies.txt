@@ -1,0 +1,55 @@
+================================================
+ OneR's performance on Companies
+================================================
+
+ 
+   Cell Contents
+|-------------------------|
+|                       N |
+|         N / Table Total |
+|-------------------------|
+
+ 
+Total Observations in Table:  192 
+
+ 
+                   | prediction 
+test_cases_df$test |        OK | Row Total | 
+-------------------|-----------|-----------|
+                KO |         8 |         8 | 
+                   |     0.042 |           | 
+-------------------|-----------|-----------|
+                OK |       184 |       184 | 
+                   |     0.958 |           | 
+-------------------|-----------|-----------|
+      Column Total |       192 |       192 | 
+-------------------|-----------|-----------|
+
+ 
+Confusion Matrix and Statistics
+
+          Reference
+Prediction  KO  OK
+        KO   0   8
+        OK   0 184
+                                          
+               Accuracy : 0.9583          
+                 95% CI : (0.9196, 0.9818)
+    No Information Rate : 1               
+    P-Value [Acc > NIR] : 1.00000         
+                                          
+                  Kappa : 0               
+                                          
+ Mcnemar's Test P-Value : 0.01333         
+                                          
+            Sensitivity :      NA         
+            Specificity : 0.95833         
+         Pos Pred Value :      NA         
+         Neg Pred Value :      NA         
+             Prevalence : 0.00000         
+         Detection Rate : 0.00000         
+   Detection Prevalence : 0.04167         
+      Balanced Accuracy :      NA         
+                                          
+       'Positive' Class : KO              
+                                          

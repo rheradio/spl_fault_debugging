@@ -1,0 +1,5 @@
+WEIGHTED:
+	FALSE	-> OK
+	TRUE	-> OK
+(67/71 instances correct)
+

@@ -1,0 +1,8 @@
+JRIP rules:
+===========
+
+(featureamp = FALSE) => test=OK (2.0/0.0)
+ => test=KO (15.0/0.0)
+
+Number of Rules : 2
+

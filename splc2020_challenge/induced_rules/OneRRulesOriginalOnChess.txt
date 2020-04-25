@@ -1,0 +1,5 @@
+ai_player:
+	FALSE	-> KO
+	TRUE	-> KO
+(7/8 instances correct)
+
