@@ -1,0 +1,7 @@
+authenticationType:
+	jwt	-> OK
+	oauth2	-> OK
+	session	-> OK
+	uaa	-> KO
+(20620/26256 instances correct)
+

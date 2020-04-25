@@ -1,0 +1,1068 @@
+PART decision list
+------------------
+
+authenticationType = uaa AND
+applicationType = gateway AND
+Docker = TRUE: KO (1792.0)
+
+prodDatabaseType = postgresql AND
+authenticationType = jwt: OK (3600.0/14.0)
+
+prodDatabaseType = mysql AND
+authenticationType = session AND
+buildTool = maven: OK (1152.0/1.0)
+
+prodDatabaseType = mysql AND
+authenticationType = jwt AND
+buildTool = maven: OK (1800.0/6.0)
+
+prodDatabaseType = mysql AND
+authenticationType = session AND
+devDatabaseType = mysql: OK (384.0/3.0)
+
+prodDatabaseType = mysql AND
+authenticationType = jwt AND
+enableSocialSignIn = FALSE AND
+searchEngine = no: OK (612.0/2.0)
+
+applicationType = microservice AND
+authenticationType = uaa: KO (456.0)
+
+prodDatabaseType = postgresql AND
+applicationType = gateway AND
+hibernateCache = ehcache: KO (192.0)
+
+prodDatabaseType = postgresql AND
+applicationType = gateway AND
+hibernateCache = no: KO (192.0)
+
+prodDatabaseType = postgresql AND
+applicationType = uaa: OK (144.0/3.0)
+
+prodDatabaseType = postgresql AND
+applicationType = gateway AND
+clusteredHttpSession = no: KO (96.0)
+
+prodDatabaseType = postgresql AND
+applicationType = gateway AND
+enableTranslation = TRUE: KO (48.0/1.0)
+
+prodDatabaseType = postgresql AND
+applicationType = gateway AND
+websocket = no: KO (24.0/1.0)
+
+prodDatabaseType = postgresql AND
+authenticationType = session: OK (2304.0/22.0)
+
+prodDatabaseType = mysql AND
+applicationType = monolith AND
+Docker = FALSE: OK (1392.0/17.0)
+
+buildTool = gradle AND
+prodDatabaseType = mariadb: KO (3888.0)
+
+authenticationType = jwt AND
+searchEngine = elasticsearch AND
+prodDatabaseType = mariadb: OK (900.0/4.0)
+
+authenticationType = uaa AND
+applicationType = gateway AND
+hibernateCache = ehcache: KO (288.0/1.0)
+
+authenticationType = jwt AND
+searchEngine = elasticsearch AND
+applicationType = gateway AND
+hibernateCache = ehcache: OK (96.0)
+
+authenticationType = session AND
+searchEngine = elasticsearch: OK (768.0/14.0)
+
+authenticationType = jwt AND
+Docker = FALSE AND
+databaseType = sql: OK (564.0/2.0)
+
+applicationType = microservice AND
+databaseType = sql: OK (36.0)
+
+applicationType = uaa AND
+Docker = FALSE: OK (116.0)
+
+authenticationType = uaa AND
+Docker = FALSE AND
+hibernateCache = no AND
+databaseType = sql: KO (288.0)
+
+Docker = FALSE AND
+applicationType = monolith AND
+enableSocialSignIn = FALSE: OK (1168.0/3.0)
+
+buildTool = gradle AND
+Docker = FALSE AND
+authenticationType = uaa: KO (140.0/7.0)
+
+buildTool = gradle AND
+prodDatabaseType = mysql AND
+authenticationType = jwt AND
+hibernateCache = hazelcast: OK (192.0/7.0)
+
+buildTool = gradle AND
+prodDatabaseType = mysql AND
+authenticationType = jwt AND
+hibernateCache = no: OK (192.0/3.0)
+
+buildTool = maven AND
+applicationType = microservice AND
+databaseType = mongodb: OK (4.0)
+
+buildTool = maven AND
+applicationType = microservice AND
+Docker = FALSE: OK (4.0)
+
+buildTool = maven AND
+applicationType = uaa AND
+searchEngine = elasticsearch: OK (36.0)
+
+buildTool = maven AND
+databaseType = cassandra AND
+Docker = TRUE: KO (52.0)
+
+buildTool = maven AND
+applicationType = monolith AND
+Docker = FALSE AND
+databaseType = sql: OK (144.0)
+
+buildTool = maven AND
+enableSocialSignIn = TRUE: KO (352.0)
+
+buildTool = gradle AND
+prodDatabaseType = cassandra AND
+Docker = TRUE: KO (52.0)
+
+buildTool = gradle AND
+applicationType = gateway AND
+clusteredHttpSession = no: OK (24.0)
+
+buildTool = gradle AND
+authenticationType = session AND
+Docker = TRUE AND
+databaseType = sql: OK (192.0/4.0)
+
+authenticationType = session AND
+databaseType = sql: KO (144.0)
+
+Docker = FALSE AND
+authenticationType = uaa AND
+databaseType = sql AND
+clusteredHttpSession = hazelcast: KO (108.0/5.0)
+
+applicationType = uaa AND
+prodDatabaseType = mysql: OK (54.0/2.0)
+
+authenticationType = uaa AND
+buildTool = maven AND
+devDatabaseType = InMemory: KO (38.0/1.0)
+
+applicationType = microservice: OK (12.0)
+
+authenticationType = uaa AND
+buildTool = maven AND
+devDatabaseType = cassandra: KO (16.0)
+
+applicationType = gateway AND
+authenticationType = jwt AND
+buildTool = maven: OK (192.0)
+
+prodDatabaseType = mariadb AND
+searchEngine = no: KO (316.0/1.0)
+
+Docker = FALSE AND
+databaseType = mongodb AND
+applicationType = monolith: KO (32.0)
+
+authenticationType = jwt AND
+enableSocialSignIn = FALSE AND
+buildTool = gradle AND
+devDatabaseType = DiskBased: OK (16.0/1.0)
+
+authenticationType = jwt AND
+enableSocialSignIn = FALSE AND
+enableTranslation = FALSE: OK (44.0)
+
+authenticationType = uaa AND
+Docker = FALSE AND
+devDatabaseType = DiskBased AND
+prodDatabaseType = mysql: KO (16.0/3.0)
+
+authenticationType = uaa AND
+Docker = FALSE AND
+prodDatabaseType = mongodb: KO (16.0/1.0)
+
+authenticationType = jwt AND
+databaseType = sql: OK (112.0/10.0)
+
+enableSocialSignIn = FALSE AND
+databaseType = mongodb AND
+applicationType = monolith: OK (80.0)
+
+enableSocialSignIn = TRUE: KO (32.0)
+
+databaseType = mongodb AND
+websocket = no: OK (8.0)
+
+databaseType = sql AND
+Docker = FALSE AND
+prodDatabaseType = mysql: KO (16.0)
+
+databaseType = sql AND
+Docker = FALSE AND
+websocket = spring-websocket: KO (8.0/1.0)
+
+databaseType = cassandra: OK (4.0)
+
+authenticationType = uaa AND
+devDatabaseType = mariadb: KO (4.0/1.0)
+
+devDatabaseType = mariadb AND
+hibernateCache = hazelcast: KO (16.0/3.0)
+
+clusteredHttpSession = hazelcast AND
+devDatabaseType = mysql AND
+enableTranslation = FALSE AND
+hibernateCache = hazelcast AND
+useSass = TRUE: KO (8.0)
+
+websocket = spring-websocket AND
+searchEngine = no AND
+applicationType = monolith AND
+hibernateCache = no AND
+useSass = TRUE AND
+buildTool = maven AND
+devDatabaseType = DiskBased: KO (8.0/2.0)
+
+prodDatabaseType = mariadb AND
+clusteredHttpSession = no AND
+Docker = TRUE AND
+websocket = spring-websocket AND
+useSass = TRUE AND
+hibernateCache = ehcache: OK (6.0)
+
+websocket = spring-websocket AND
+searchEngine = no AND
+applicationType = monolith AND
+clusteredHttpSession = no AND
+buildTool = maven AND
+prodDatabaseType = mysql AND
+hibernateCache = ehcache AND
+devDatabaseType = DiskBased: KO (4.0)
+
+websocket = spring-websocket AND
+searchEngine = no AND
+devDatabaseType = postgresql AND
+buildTool = maven AND
+useSass = TRUE: KO (12.0/1.0)
+
+clusteredHttpSession = hazelcast AND
+hibernateCache = ehcache AND
+searchEngine = no AND
+websocket = no AND
+prodDatabaseType = mysql AND
+buildTool = maven AND
+useSass = FALSE: KO (6.0)
+
+websocket = spring-websocket AND
+prodDatabaseType = mysql AND
+useSass = FALSE AND
+devDatabaseType = InMemory AND
+enableTranslation = TRUE AND
+hibernateCache = ehcache: KO (8.0/1.0)
+
+websocket = spring-websocket AND
+searchEngine = no AND
+prodDatabaseType = mysql AND
+hibernateCache = no AND
+enableTranslation = FALSE AND
+buildTool = gradle: KO (12.0/2.0)
+
+clusteredHttpSession = no AND
+devDatabaseType = postgresql AND
+searchEngine = elasticsearch AND
+hibernateCache = no AND
+buildTool = gradle: KO (8.0)
+
+clusteredHttpSession = no AND
+hibernateCache = no AND
+enableTranslation = FALSE AND
+websocket = no AND
+buildTool = gradle: OK (22.0/4.0)
+
+clusteredHttpSession = hazelcast AND
+devDatabaseType = mysql AND
+searchEngine = no AND
+hibernateCache = no AND
+websocket = spring-websocket: KO (6.0)
+
+useSass = FALSE AND
+authenticationType = oauth2 AND
+prodDatabaseType = mariadb AND
+clusteredHttpSession = no AND
+hibernateCache = hazelcast AND
+websocket = no: OK (4.0)
+
+useSass = TRUE AND
+authenticationType = oauth2 AND
+searchEngine = elasticsearch AND
+websocket = no AND
+devDatabaseType = mysql AND
+clusteredHttpSession = no: KO (11.0/2.0)
+
+clusteredHttpSession = no AND
+hibernateCache = ehcache AND
+devDatabaseType = mysql AND
+searchEngine = elasticsearch AND
+useSass = FALSE AND
+websocket = no: OK (4.0/1.0)
+
+clusteredHttpSession = no AND
+hibernateCache = ehcache AND
+devDatabaseType = mysql AND
+buildTool = gradle AND
+enableTranslation = TRUE: OK (6.0)
+
+devDatabaseType = mariadb AND
+useSass = TRUE AND
+hibernateCache = no: KO (8.0/3.0)
+
+devDatabaseType = mysql AND
+clusteredHttpSession = hazelcast AND
+buildTool = gradle AND
+searchEngine = no: KO (18.0/5.0)
+
+hibernateCache = no AND
+useSass = FALSE AND
+applicationType = monolith AND
+prodDatabaseType = mariadb AND
+clusteredHttpSession = no: OK (12.0/3.0)
+
+searchEngine = no AND
+websocket = no AND
+hibernateCache = hazelcast AND
+devDatabaseType = DiskBased AND
+clusteredHttpSession = no AND
+prodDatabaseType = postgresql: OK (8.0/1.0)
+
+devDatabaseType = DiskBased AND
+buildTool = gradle AND
+prodDatabaseType = mysql AND
+searchEngine = elasticsearch AND
+enableTranslation = FALSE AND
+hibernateCache = ehcache: KO (8.0/1.0)
+
+buildTool = gradle AND
+devDatabaseType = InMemory AND
+websocket = no AND
+prodDatabaseType = mysql AND
+hibernateCache = hazelcast: OK (16.0/3.0)
+
+hibernateCache = hazelcast AND
+clusteredHttpSession = no AND
+devDatabaseType = InMemory AND
+useSass = TRUE AND
+enableTranslation = FALSE: KO (16.0/2.0)
+
+clusteredHttpSession = no AND
+enableTranslation = FALSE AND
+devDatabaseType = mysql AND
+searchEngine = elasticsearch AND
+buildTool = gradle: OK (7.0)
+
+devDatabaseType = mysql AND
+buildTool = gradle AND
+hibernateCache = ehcache AND
+websocket = spring-websocket: KO (6.0)
+
+devDatabaseType = InMemory AND
+websocket = no AND
+enableTranslation = FALSE AND
+prodDatabaseType = mysql AND
+buildTool = maven AND
+searchEngine = no: OK (10.0/2.0)
+
+prodDatabaseType = mysql AND
+useSass = FALSE AND
+hibernateCache = hazelcast AND
+devDatabaseType = InMemory AND
+searchEngine = no: KO (10.0/1.0)
+
+devDatabaseType = InMemory AND
+clusteredHttpSession = no AND
+hibernateCache = ehcache AND
+useSass = FALSE AND
+searchEngine = no AND
+prodDatabaseType = postgresql: OK (8.0)
+
+devDatabaseType = InMemory AND
+clusteredHttpSession = no AND
+searchEngine = elasticsearch AND
+buildTool = maven AND
+websocket = spring-websocket AND
+prodDatabaseType = postgresql: OK (11.0/3.0)
+
+searchEngine = elasticsearch AND
+buildTool = maven AND
+clusteredHttpSession = hazelcast AND
+useSass = TRUE AND
+hibernateCache = no AND
+websocket = no AND
+devDatabaseType = DiskBased: KO (6.0)
+
+hibernateCache = ehcache AND
+searchEngine = no AND
+clusteredHttpSession = hazelcast AND
+buildTool = gradle AND
+useSass = FALSE: KO (19.0/5.0)
+
+searchEngine = no AND
+clusteredHttpSession = hazelcast AND
+hibernateCache = hazelcast AND
+useSass = TRUE AND
+websocket = no: OK (18.0/4.0)
+
+enableTranslation = TRUE AND
+prodDatabaseType = mariadb AND
+websocket = no AND
+devDatabaseType = InMemory AND
+clusteredHttpSession = no: OK (4.0)
+
+enableTranslation = TRUE AND
+clusteredHttpSession = no AND
+devDatabaseType = DiskBased AND
+hibernateCache = no AND
+searchEngine = no AND
+useSass = FALSE: KO (8.0)
+
+searchEngine = no AND
+prodDatabaseType = mysql AND
+devDatabaseType = InMemory AND
+clusteredHttpSession = hazelcast AND
+buildTool = maven: OK (12.0/3.0)
+
+buildTool = maven AND
+devDatabaseType = postgresql AND
+useSass = TRUE AND
+websocket = no AND
+searchEngine = elasticsearch: KO (12.0/2.0)
+
+hibernateCache = no AND
+useSass = FALSE AND
+applicationType = monolith AND
+prodDatabaseType = postgresql AND
+devDatabaseType = InMemory AND
+enableTranslation = FALSE: OK (13.0/2.0)
+
+devDatabaseType = InMemory AND
+buildTool = maven AND
+clusteredHttpSession = hazelcast AND
+hibernateCache = no AND
+websocket = spring-websocket: KO (14.0/2.0)
+
+hibernateCache = no AND
+prodDatabaseType = mariadb AND
+websocket = spring-websocket AND
+useSass = TRUE: OK (6.0)
+
+devDatabaseType = postgresql AND
+useSass = TRUE AND
+buildTool = gradle AND
+enableTranslation = FALSE AND
+websocket = spring-websocket: OK (11.0/1.0)
+
+hibernateCache = hazelcast AND
+buildTool = gradle AND
+clusteredHttpSession = no AND
+searchEngine = no AND
+useSass = FALSE: KO (18.0/4.0)
+
+useSass = TRUE AND
+authenticationType = oauth2 AND
+prodDatabaseType = postgresql AND
+clusteredHttpSession = no AND
+hibernateCache = hazelcast AND
+searchEngine = elasticsearch: KO (16.0/3.0)
+
+clusteredHttpSession = no AND
+prodDatabaseType = mariadb AND
+hibernateCache = ehcache AND
+enableTranslation = TRUE: KO (7.0/2.0)
+
+clusteredHttpSession = no AND
+devDatabaseType = mysql AND
+enableTranslation = FALSE: OK (24.0/10.0)
+
+clusteredHttpSession = no AND
+devDatabaseType = DiskBased AND
+buildTool = maven AND
+searchEngine = no AND
+hibernateCache = ehcache: OK (12.0/3.0)
+
+hibernateCache = hazelcast AND
+searchEngine = no AND
+enableTranslation = FALSE AND
+buildTool = gradle: OK (16.0/3.0)
+
+enableTranslation = FALSE AND
+clusteredHttpSession = hazelcast AND
+prodDatabaseType = mysql AND
+useSass = TRUE AND
+websocket = no AND
+searchEngine = no: KO (8.0)
+
+devDatabaseType = mariadb AND
+clusteredHttpSession = hazelcast AND
+enableTranslation = FALSE AND
+websocket = no: KO (3.0)
+
+devDatabaseType = mariadb AND
+websocket = no: OK (5.0)
+
+hibernateCache = ehcache AND
+buildTool = maven AND
+clusteredHttpSession = no AND
+searchEngine = no AND
+websocket = spring-websocket: KO (9.0)
+
+clusteredHttpSession = no AND
+devDatabaseType = mysql AND
+buildTool = gradle AND
+searchEngine = no AND
+hibernateCache = hazelcast: OK (2.0)
+
+clusteredHttpSession = no AND
+devDatabaseType = InMemory AND
+prodDatabaseType = mysql AND
+useSass = TRUE AND
+enableTranslation = FALSE: OK (10.0)
+
+enableTranslation = FALSE AND
+websocket = spring-websocket AND
+prodDatabaseType = mariadb: OK (18.0/6.0)
+
+prodDatabaseType = mariadb AND
+clusteredHttpSession = no AND
+useSass = TRUE AND
+Docker = TRUE: KO (9.0/3.0)
+
+enableTranslation = FALSE AND
+websocket = spring-websocket AND
+useSass = TRUE AND
+devDatabaseType = InMemory AND
+buildTool = gradle AND
+clusteredHttpSession = hazelcast: KO (9.0/2.0)
+
+prodDatabaseType = mariadb AND
+clusteredHttpSession = no AND
+useSass = FALSE: KO (6.0)
+
+authenticationType = oauth2 AND
+prodDatabaseType = mysql AND
+searchEngine = elasticsearch AND
+useSass = FALSE AND
+buildTool = gradle AND
+hibernateCache = hazelcast AND
+devDatabaseType = DiskBased: KO (8.0/1.0)
+
+authenticationType = oauth2 AND
+hibernateCache = no AND
+prodDatabaseType = postgresql AND
+devDatabaseType = InMemory AND
+clusteredHttpSession = hazelcast: OK (16.0/5.0)
+
+authenticationType = oauth2 AND
+devDatabaseType = InMemory AND
+buildTool = maven AND
+hibernateCache = no AND
+prodDatabaseType = mysql: KO (15.0/3.0)
+
+authenticationType = oauth2 AND
+clusteredHttpSession = no AND
+useSass = FALSE AND
+hibernateCache = no AND
+enableTranslation = TRUE AND
+websocket = spring-websocket: OK (16.0/4.0)
+
+authenticationType = oauth2 AND
+devDatabaseType = postgresql AND
+hibernateCache = hazelcast AND
+useSass = TRUE: OK (10.0/2.0)
+
+authenticationType = oauth2 AND
+useSass = TRUE AND
+prodDatabaseType = postgresql AND
+devDatabaseType = InMemory AND
+clusteredHttpSession = hazelcast AND
+buildTool = maven AND
+searchEngine = elasticsearch: KO (8.0/1.0)
+
+authenticationType = oauth2 AND
+clusteredHttpSession = no AND
+useSass = FALSE AND
+hibernateCache = hazelcast AND
+prodDatabaseType = postgresql AND
+enableTranslation = TRUE AND
+websocket = spring-websocket: OK (8.0/1.0)
+
+authenticationType = oauth2 AND
+websocket = spring-websocket AND
+enableTranslation = FALSE AND
+devDatabaseType = postgresql: KO (23.0/9.0)
+
+authenticationType = oauth2 AND
+hibernateCache = no AND
+websocket = no AND
+devDatabaseType = postgresql AND
+useSass = FALSE AND
+clusteredHttpSession = no: OK (5.0)
+
+authenticationType = oauth2 AND
+devDatabaseType = mysql AND
+enableTranslation = FALSE AND
+searchEngine = elasticsearch AND
+websocket = spring-websocket: KO (8.0/2.0)
+
+authenticationType = oauth2 AND
+devDatabaseType = postgresql AND
+hibernateCache = ehcache AND
+clusteredHttpSession = hazelcast AND
+enableTranslation = TRUE: KO (12.0/3.0)
+
+authenticationType = oauth2 AND
+devDatabaseType = postgresql AND
+hibernateCache = no AND
+buildTool = gradle AND
+searchEngine = no: OK (8.0/1.0)
+
+authenticationType = oauth2 AND
+buildTool = gradle AND
+hibernateCache = hazelcast AND
+useSass = TRUE AND
+enableTranslation = TRUE AND
+searchEngine = no: KO (10.0/2.0)
+
+authenticationType = oauth2 AND
+devDatabaseType = postgresql AND
+searchEngine = no AND
+hibernateCache = no: KO (7.0/1.0)
+
+authenticationType = oauth2 AND
+buildTool = maven AND
+hibernateCache = no AND
+devDatabaseType = DiskBased AND
+enableTranslation = FALSE AND
+websocket = no: OK (14.0/2.0)
+
+authenticationType = oauth2 AND
+enableTranslation = FALSE AND
+prodDatabaseType = mariadb AND
+useSass = FALSE: KO (5.0)
+
+authenticationType = oauth2 AND
+prodDatabaseType = mariadb AND
+enableTranslation = TRUE AND
+useSass = FALSE: OK (13.0/4.0)
+
+authenticationType = oauth2 AND
+devDatabaseType = postgresql AND
+buildTool = maven AND
+useSass = TRUE: OK (6.0/1.0)
+
+authenticationType = oauth2 AND
+devDatabaseType = postgresql AND
+websocket = spring-websocket AND
+useSass = FALSE AND
+clusteredHttpSession = hazelcast: KO (6.0/2.0)
+
+authenticationType = jwt AND
+useSass = FALSE: OK (2.0)
+
+databaseType = sql AND
+Docker = TRUE AND
+devDatabaseType = InMemory AND
+prodDatabaseType = mariadb AND
+enableTranslation = TRUE: KO (5.0/2.0)
+
+databaseType = sql AND
+Docker = TRUE AND
+devDatabaseType = InMemory AND
+prodDatabaseType = mysql AND
+clusteredHttpSession = no AND
+enableTranslation = TRUE AND
+websocket = no: OK (15.0/4.0)
+
+authenticationType = oauth2 AND
+hibernateCache = no AND
+prodDatabaseType = postgresql AND
+searchEngine = no: KO (27.0/10.0)
+
+databaseType = sql AND
+Docker = TRUE AND
+devDatabaseType = mysql AND
+websocket = spring-websocket AND
+enableTranslation = TRUE AND
+useSass = FALSE AND
+buildTool = maven: KO (8.0/2.0)
+
+databaseType = sql AND
+Docker = TRUE AND
+devDatabaseType = mysql AND
+websocket = spring-websocket AND
+enableTranslation = TRUE AND
+searchEngine = elasticsearch AND
+hibernateCache = no: OK (5.0/1.0)
+
+databaseType = sql AND
+Docker = TRUE AND
+hibernateCache = no AND
+prodDatabaseType = mysql AND
+clusteredHttpSession = no AND
+buildTool = maven: KO (11.0/2.0)
+
+databaseType = sql AND
+Docker = TRUE AND
+devDatabaseType = mysql AND
+useSass = FALSE AND
+websocket = no AND
+clusteredHttpSession = no: OK (6.0/1.0)
+
+databaseType = sql AND
+Docker = TRUE AND
+devDatabaseType = mysql AND
+websocket = spring-websocket AND
+useSass = FALSE: OK (4.0)
+
+databaseType = sql AND
+Docker = TRUE AND
+devDatabaseType = mysql AND
+clusteredHttpSession = no AND
+buildTool = maven: OK (5.0/2.0)
+
+databaseType = sql AND
+Docker = TRUE AND
+devDatabaseType = mysql AND
+clusteredHttpSession = hazelcast AND
+websocket = no AND
+searchEngine = no: KO (6.0/2.0)
+
+databaseType = sql AND
+Docker = TRUE AND
+devDatabaseType = mysql AND
+clusteredHttpSession = hazelcast AND
+websocket = spring-websocket: OK (6.0/2.0)
+
+databaseType = sql AND
+Docker = TRUE AND
+devDatabaseType = mysql AND
+clusteredHttpSession = hazelcast AND
+useSass = TRUE AND
+enableTranslation = FALSE: KO (4.0/1.0)
+
+databaseType = sql AND
+Docker = TRUE AND
+devDatabaseType = mysql AND
+clusteredHttpSession = hazelcast AND
+buildTool = maven: OK (9.0/3.0)
+
+authenticationType = oauth2 AND
+devDatabaseType = mysql AND
+clusteredHttpSession = hazelcast AND
+enableTranslation = TRUE: KO (6.0/2.0)
+
+databaseType = sql AND
+Docker = TRUE AND
+devDatabaseType = mysql AND
+clusteredHttpSession = hazelcast: OK (3.0/1.0)
+
+databaseType = sql AND
+Docker = TRUE AND
+devDatabaseType = DiskBased AND
+prodDatabaseType = mariadb AND
+hibernateCache = ehcache: OK (3.0/1.0)
+
+authenticationType = oauth2 AND
+devDatabaseType = DiskBased AND
+prodDatabaseType = postgresql AND
+websocket = no AND
+useSass = FALSE AND
+clusteredHttpSession = no AND
+buildTool = gradle: OK (7.0)
+
+authenticationType = oauth2 AND
+devDatabaseType = DiskBased AND
+prodDatabaseType = postgresql AND
+clusteredHttpSession = no AND
+useSass = TRUE AND
+hibernateCache = ehcache: KO (12.0/3.0)
+
+authenticationType = oauth2 AND
+devDatabaseType = DiskBased AND
+prodDatabaseType = postgresql AND
+hibernateCache = ehcache AND
+searchEngine = elasticsearch AND
+clusteredHttpSession = hazelcast AND
+useSass = TRUE: OK (8.0/2.0)
+
+authenticationType = oauth2 AND
+devDatabaseType = InMemory AND
+prodDatabaseType = mysql AND
+buildTool = gradle AND
+hibernateCache = no AND
+websocket = spring-websocket: KO (8.0/2.0)
+
+authenticationType = oauth2 AND
+devDatabaseType = InMemory AND
+prodDatabaseType = mariadb: OK (3.0)
+
+authenticationType = oauth2 AND
+prodDatabaseType = mysql AND
+devDatabaseType = DiskBased AND
+searchEngine = no AND
+hibernateCache = no AND
+enableTranslation = TRUE: OK (9.0/1.0)
+
+authenticationType = oauth2 AND
+prodDatabaseType = mysql AND
+devDatabaseType = DiskBased AND
+websocket = no AND
+useSass = FALSE AND
+hibernateCache = ehcache: KO (8.0)
+
+authenticationType = oauth2 AND
+prodDatabaseType = mariadb: KO (4.0)
+
+databaseType = sql AND
+Docker = TRUE AND
+devDatabaseType = DiskBased AND
+hibernateCache = no AND
+searchEngine = elasticsearch AND
+enableTranslation = TRUE AND
+useSass = TRUE AND
+websocket = spring-websocket: KO (7.0)
+
+databaseType = sql AND
+Docker = TRUE AND
+devDatabaseType = DiskBased AND
+enableTranslation = TRUE AND
+websocket = spring-websocket AND
+clusteredHttpSession = no AND
+hibernateCache = hazelcast: OK (6.0)
+
+databaseType = sql AND
+Docker = TRUE AND
+devDatabaseType = DiskBased AND
+hibernateCache = ehcache AND
+searchEngine = elasticsearch: OK (32.0/11.0)
+
+authenticationType = oauth2 AND
+devDatabaseType = DiskBased AND
+buildTool = gradle AND
+hibernateCache = hazelcast: KO (20.0/6.0)
+
+authenticationType = oauth2 AND
+devDatabaseType = DiskBased AND
+prodDatabaseType = postgresql AND
+clusteredHttpSession = hazelcast AND
+enableTranslation = TRUE AND
+websocket = spring-websocket: OK (9.0/2.0)
+
+authenticationType = oauth2 AND
+devDatabaseType = DiskBased AND
+useSass = FALSE AND
+hibernateCache = no AND
+searchEngine = elasticsearch AND
+prodDatabaseType = postgresql: KO (8.0/2.0)
+
+authenticationType = oauth2 AND
+devDatabaseType = DiskBased AND
+prodDatabaseType = postgresql AND
+hibernateCache = no: OK (8.0/2.0)
+
+authenticationType = oauth2 AND
+devDatabaseType = DiskBased AND
+hibernateCache = no AND
+searchEngine = elasticsearch AND
+websocket = no AND
+clusteredHttpSession = hazelcast AND
+enableTranslation = TRUE: OK (3.0/1.0)
+
+authenticationType = oauth2 AND
+devDatabaseType = DiskBased AND
+buildTool = gradle AND
+enableTranslation = TRUE: KO (10.0/2.0)
+
+authenticationType = oauth2 AND
+devDatabaseType = DiskBased AND
+clusteredHttpSession = no AND
+enableTranslation = FALSE AND
+websocket = spring-websocket AND
+hibernateCache = hazelcast: KO (7.0/3.0)
+
+databaseType = sql AND
+Docker = TRUE AND
+devDatabaseType = DiskBased AND
+clusteredHttpSession = no AND
+enableTranslation = FALSE AND
+websocket = no: OK (6.0)
+
+authenticationType = oauth2 AND
+devDatabaseType = DiskBased AND
+prodDatabaseType = mysql AND
+websocket = no AND
+enableTranslation = FALSE: KO (6.0)
+
+databaseType = sql AND
+Docker = TRUE AND
+devDatabaseType = DiskBased AND
+clusteredHttpSession = no AND
+prodDatabaseType = mysql AND
+hibernateCache = hazelcast: KO (4.0/1.0)
+
+databaseType = sql AND
+Docker = TRUE AND
+devDatabaseType = DiskBased AND
+websocket = no: OK (16.0/6.0)
+
+authenticationType = oauth2 AND
+devDatabaseType = DiskBased AND
+hibernateCache = ehcache AND
+enableTranslation = FALSE AND
+prodDatabaseType = postgresql: KO (4.0/1.0)
+
+databaseType = sql AND
+Docker = TRUE AND
+devDatabaseType = DiskBased AND
+clusteredHttpSession = hazelcast AND
+prodDatabaseType = postgresql: OK (4.0/1.0)
+
+authenticationType = oauth2 AND
+devDatabaseType = DiskBased AND
+clusteredHttpSession = no: OK (4.0/1.0)
+
+authenticationType = oauth2 AND
+devDatabaseType = DiskBased AND
+searchEngine = no AND
+hibernateCache = ehcache AND
+enableTranslation = FALSE: OK (3.0/1.0)
+
+authenticationType = oauth2 AND
+devDatabaseType = DiskBased AND
+hibernateCache = hazelcast AND
+useSass = FALSE: KO (4.0/1.0)
+
+authenticationType = oauth2 AND
+devDatabaseType = DiskBased AND
+searchEngine = elasticsearch: OK (7.0/2.0)
+
+authenticationType = oauth2 AND
+devDatabaseType = InMemory AND
+websocket = spring-websocket AND
+searchEngine = no AND
+enableTranslation = TRUE: OK (11.0/2.0)
+
+authenticationType = oauth2 AND
+devDatabaseType = InMemory AND
+searchEngine = no AND
+useSass = TRUE: KO (14.0/4.0)
+
+authenticationType = oauth2 AND
+devDatabaseType = InMemory AND
+enableTranslation = TRUE AND
+useSass = FALSE AND
+searchEngine = elasticsearch AND
+buildTool = gradle: KO (12.0/3.0)
+
+authenticationType = oauth2 AND
+devDatabaseType = InMemory AND
+buildTool = gradle AND
+searchEngine = elasticsearch AND
+useSass = FALSE AND
+prodDatabaseType = postgresql: OK (8.0/1.0)
+
+authenticationType = oauth2 AND
+devDatabaseType = InMemory AND
+hibernateCache = ehcache AND
+buildTool = maven AND
+enableTranslation = TRUE: KO (9.0/2.0)
+
+authenticationType = oauth2 AND
+devDatabaseType = InMemory AND
+enableTranslation = TRUE AND
+clusteredHttpSession = no: OK (12.0/3.0)
+
+authenticationType = oauth2 AND
+devDatabaseType = DiskBased: KO (5.0/1.0)
+
+authenticationType = oauth2 AND
+devDatabaseType = InMemory AND
+searchEngine = no AND
+hibernateCache = ehcache: KO (4.0/1.0)
+
+authenticationType = oauth2 AND
+devDatabaseType = InMemory AND
+clusteredHttpSession = no AND
+hibernateCache = ehcache AND
+buildTool = gradle: KO (4.0/1.0)
+
+authenticationType = oauth2 AND
+devDatabaseType = InMemory AND
+hibernateCache = ehcache AND
+websocket = no: OK (11.0/3.0)
+
+authenticationType = oauth2 AND
+devDatabaseType = InMemory AND
+prodDatabaseType = postgresql AND
+hibernateCache = hazelcast AND
+websocket = no AND
+searchEngine = elasticsearch: KO (5.0/1.0)
+
+authenticationType = oauth2 AND
+useSass = TRUE AND
+websocket = spring-websocket: KO (13.0/2.0)
+
+databaseType = sql AND
+Docker = TRUE AND
+devDatabaseType = InMemory AND
+prodDatabaseType = mysql AND
+enableTranslation = TRUE: OK (5.0/1.0)
+
+databaseType = sql AND
+Docker = TRUE AND
+devDatabaseType = postgresql AND
+enableTranslation = TRUE: OK (19.0/7.0)
+
+authenticationType = oauth2 AND
+enableTranslation = FALSE AND
+hibernateCache = hazelcast AND
+devDatabaseType = InMemory AND
+websocket = no: OK (5.0/1.0)
+
+authenticationType = oauth2 AND
+useSass = TRUE: KO (8.0/2.0)
+
+authenticationType = oauth2 AND
+websocket = spring-websocket AND
+clusteredHttpSession = hazelcast AND
+prodDatabaseType = mysql: KO (4.0/1.0)
+
+databaseType = sql AND
+Docker = TRUE AND
+prodDatabaseType = postgresql AND
+buildTool = gradle: KO (7.0/2.0)
+
+databaseType = sql AND
+Docker = TRUE AND
+searchEngine = elasticsearch: OK (12.0/3.0)
+
+searchEngine = no: KO (10.0/3.0)
+
+: OK (2.0)
+
+Number of Rules  : 	199
+

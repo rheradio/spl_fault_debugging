@@ -1,0 +1,12 @@
+"rule"; "interactions"; "support"; "coverage"
+"(prodDatabaseType = mariadb) & (buildTool = gradle)"; 2; 15.08; 42.23
+"(authenticationType = uaa) & (applicationType = gateway) and (Docker = TRUE)"; 2; 6.83; 19.13
+"(Docker = TRUE) & (prodDatabaseType = mariadb) and (searchEngine = no) and (applicationType = monolith)"; 2; 2.19; 6.13
+"(authenticationType = uaa) & (applicationType = gateway)"; 2; 2.07; 5.8
+"(authenticationType = uaa) & (applicationType = gateway) and (hibernateCache = ehcache)"; 2; 1.83; 5.12
+"(authenticationType = uaa) & (applicationType = gateway) and (hibernateCache = no) and (databaseType = sql)"; 2; 1.83; 5.12
+"(authenticationType = uaa) & (applicationType = microservice)"; 2; 1.46; 4.09
+"(Docker = TRUE) & (authenticationType = oauth2) and (prodDatabaseType = mariadb) and (searchEngine = no)"; 2; 0.01; 0.03
+"(Docker = TRUE) & (authenticationType = oauth2) and (prodDatabaseType = mysql) and (clusteredHttpSession = hazelcast) and (devDatabaseType = mysql) and (enableTranslation = FALSE) and (hibernateCache = hazelcast) and (useSass = TRUE)"; 2; 0.01; 0.03
+"(Docker = TRUE) & (authenticationType = oauth2) and (clusteredHttpSession = hazelcast) and (hibernateCache = ehcache) and (devDatabaseType = InMemory) and (prodDatabaseType = postgresql) and (websocket = spring-websocket)"; 2; 0.01; 0.03
+"(Docker = TRUE) & (authenticationType = oauth2) and (buildTool = maven) and (devDatabaseType = postgresql) and (useSass = TRUE) and (hibernateCache = no) and (clusteredHttpSession = no)"; 2; 0.01; 0.03

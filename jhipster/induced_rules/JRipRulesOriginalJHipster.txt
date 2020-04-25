@@ -1,0 +1,18 @@
+JRIP rules:
+===========
+
+(authenticationType = uaa) and (applicationType = gateway) and (Docker = TRUE) => Build=KO (1792.0/0.0)
+(prodDatabaseType = mariadb) and (buildTool = gradle) => Build=KO (3960.0/0.0)
+(authenticationType = uaa) and (applicationType = gateway) and (hibernateCache = ehcache) => Build=KO (480.0/1.0)
+(authenticationType = uaa) and (applicationType = gateway) and (hibernateCache = no) and (databaseType = sql) => Build=KO (480.0/0.0)
+(authenticationType = uaa) and (applicationType = gateway) => Build=KO (544.0/24.0)
+(Docker = TRUE) and (authenticationType = oauth2) and (prodDatabaseType = mariadb) and (searchEngine = no) => Build=KO (144.0/0.0)
+(Docker = TRUE) and (authenticationType = oauth2) and (prodDatabaseType = mysql) and (clusteredHttpSession = hazelcast) and (devDatabaseType = mysql) and (enableTranslation = FALSE) and (hibernateCache = hazelcast) and (useSass = TRUE) => Build=KO (8.0/0.0)
+(Docker = TRUE) and (authenticationType = oauth2) and (clusteredHttpSession = hazelcast) and (hibernateCache = ehcache) and (devDatabaseType = InMemory) and (prodDatabaseType = postgresql) and (websocket = spring-websocket) => Build=KO (16.0/3.0)
+(Docker = TRUE) and (authenticationType = oauth2) and (buildTool = maven) and (devDatabaseType = postgresql) and (useSass = TRUE) and (hibernateCache = no) and (clusteredHttpSession = no) => Build=KO (8.0/1.0)
+(Docker = TRUE) and (prodDatabaseType = mariadb) and (searchEngine = no) and (applicationType = monolith) => Build=KO (576.0/0.0)
+(authenticationType = uaa) and (applicationType = microservice) => Build=KO (384.0/0.0)
+ => Build=OK (17864.0/1013.0)
+
+Number of Rules : 12
+

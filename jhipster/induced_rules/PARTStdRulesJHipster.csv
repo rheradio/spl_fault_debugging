@@ -1,0 +1,100 @@
+"rule"; "interactions"; "support"; "coverage"
+"buildTool = gradle & prodDatabaseType = mariadb"; 2; 14.81; 41.47
+"authenticationType = uaa & applicationType = gateway & Docker = TRUE"; 3; 6.83; 19.13
+"applicationType = microservice & authenticationType = uaa"; 2; 1.74; 4.87
+"buildTool = maven & enableSocialSignIn = TRUE"; 2; 1.34; 3.75
+"prodDatabaseType = mariadb & searchEngine = no"; 2; 1.2; 3.36
+"authenticationType = uaa & applicationType = gateway & hibernateCache = ehcache"; 3; 1.1; 3.08
+"authenticationType = uaa & Docker = FALSE & hibernateCache = no & databaseType = sql"; 4; 1.1; 3.08
+"prodDatabaseType = postgresql & applicationType = gateway & hibernateCache = ehcache"; 3; 0.73; 2.04
+"prodDatabaseType = postgresql & applicationType = gateway & hibernateCache = no"; 3; 0.73; 2.04
+"authenticationType = session & databaseType = sql"; 2; 0.55; 1.54
+"buildTool = gradle & Docker = FALSE & authenticationType = uaa"; 3; 0.53; 1.48
+"Docker = FALSE & authenticationType = uaa & databaseType = sql & clusteredHttpSession = hazelcast"; 4; 0.41; 1.15
+"prodDatabaseType = postgresql & applicationType = gateway & clusteredHttpSession = no"; 3; 0.37; 1.04
+"buildTool = maven & databaseType = cassandra & Docker = TRUE"; 3; 0.2; 0.56
+"buildTool = gradle & prodDatabaseType = cassandra & Docker = TRUE"; 3; 0.2; 0.56
+"prodDatabaseType = postgresql & applicationType = gateway & enableTranslation = TRUE"; 3; 0.18; 0.5
+"authenticationType = uaa & buildTool = maven & devDatabaseType = InMemory"; 3; 0.14; 0.39
+"Docker = FALSE & databaseType = mongodb & applicationType = monolith"; 3; 0.12; 0.34
+"enableSocialSignIn = TRUE"; 1; 0.12; 0.34
+"prodDatabaseType = postgresql & applicationType = gateway & websocket = no"; 3; 0.09; 0.25
+"devDatabaseType = mysql & clusteredHttpSession = hazelcast & buildTool = gradle & searchEngine = no"; 4; 0.07; 0.2
+"hibernateCache = ehcache & searchEngine = no & clusteredHttpSession = hazelcast & buildTool = gradle & useSass = FALSE"; 5; 0.07; 0.2
+"hibernateCache = hazelcast & buildTool = gradle & clusteredHttpSession = no & searchEngine = no & useSass = FALSE"; 5; 0.07; 0.2
+"authenticationType = uaa & buildTool = maven & devDatabaseType = cassandra"; 3; 0.06; 0.17
+"authenticationType = uaa & Docker = FALSE & devDatabaseType = DiskBased & prodDatabaseType = mysql"; 4; 0.06; 0.17
+"authenticationType = uaa & Docker = FALSE & prodDatabaseType = mongodb"; 3; 0.06; 0.17
+"databaseType = sql & Docker = FALSE & prodDatabaseType = mysql"; 3; 0.06; 0.17
+"devDatabaseType = mariadb & hibernateCache = hazelcast"; 2; 0.06; 0.17
+"hibernateCache = hazelcast & clusteredHttpSession = no & devDatabaseType = InMemory & useSass = TRUE & enableTranslation = FALSE"; 5; 0.06; 0.17
+"websocket = spring-websocket & searchEngine = no & devDatabaseType = postgresql & buildTool = maven & useSass = TRUE"; 5; 0.05; 0.14
+"websocket = spring-websocket & searchEngine = no & prodDatabaseType = mysql & hibernateCache = no & enableTranslation = FALSE & buildTool = gradle"; 6; 0.05; 0.14
+"buildTool = maven & devDatabaseType = postgresql & useSass = TRUE & websocket = no & searchEngine = elasticsearch"; 5; 0.05; 0.14
+"devDatabaseType = InMemory & buildTool = maven & clusteredHttpSession = hazelcast & hibernateCache = no & websocket = spring-websocket"; 5; 0.05; 0.14
+"prodDatabaseType = mysql & useSass = FALSE & hibernateCache = hazelcast & devDatabaseType = InMemory & searchEngine = no"; 5; 0.04; 0.11
+"databaseType = sql & Docker = TRUE & hibernateCache = no & prodDatabaseType = mysql & clusteredHttpSession = no & buildTool = maven"; 6; 0.04; 0.11
+"searchEngine = no"; 1; 0.04; 0.11
+"databaseType = sql & Docker = FALSE & websocket = spring-websocket"; 3; 0.03; 0.08
+"clusteredHttpSession = hazelcast & devDatabaseType = mysql & enableTranslation = FALSE & hibernateCache = hazelcast & useSass = TRUE"; 5; 0.03; 0.08
+"websocket = spring-websocket & searchEngine = no & applicationType = monolith & hibernateCache = no & useSass = TRUE & buildTool = maven & devDatabaseType = DiskBased"; 7; 0.03; 0.08
+"websocket = spring-websocket & prodDatabaseType = mysql & useSass = FALSE & devDatabaseType = InMemory & enableTranslation = TRUE & hibernateCache = ehcache"; 6; 0.03; 0.08
+"clusteredHttpSession = no & devDatabaseType = postgresql & searchEngine = elasticsearch & hibernateCache = no & buildTool = gradle"; 5; 0.03; 0.08
+"devDatabaseType = mariadb & useSass = TRUE & hibernateCache = no"; 3; 0.03; 0.08
+"devDatabaseType = DiskBased & buildTool = gradle & prodDatabaseType = mysql & searchEngine = elasticsearch & enableTranslation = FALSE & hibernateCache = ehcache"; 6; 0.03; 0.08
+"enableTranslation = TRUE & clusteredHttpSession = no & devDatabaseType = DiskBased & hibernateCache = no & searchEngine = no & useSass = FALSE"; 6; 0.03; 0.08
+"clusteredHttpSession = no & prodDatabaseType = mariadb & hibernateCache = ehcache & enableTranslation = TRUE"; 4; 0.03; 0.08
+"enableTranslation = FALSE & clusteredHttpSession = hazelcast & prodDatabaseType = mysql & useSass = TRUE & websocket = no & searchEngine = no"; 6; 0.03; 0.08
+"hibernateCache = ehcache & buildTool = maven & clusteredHttpSession = no & searchEngine = no & websocket = spring-websocket"; 5; 0.03; 0.08
+"prodDatabaseType = mariadb & clusteredHttpSession = no & useSass = TRUE & Docker = TRUE"; 4; 0.03; 0.08
+"enableTranslation = FALSE & websocket = spring-websocket & useSass = TRUE & devDatabaseType = InMemory & buildTool = gradle & clusteredHttpSession = hazelcast"; 6; 0.03; 0.08
+"databaseType = sql & Docker = TRUE & devDatabaseType = mysql & websocket = spring-websocket & enableTranslation = TRUE & useSass = FALSE & buildTool = maven"; 7; 0.03; 0.08
+"databaseType = sql & Docker = TRUE & devDatabaseType = DiskBased & hibernateCache = no & searchEngine = elasticsearch & enableTranslation = TRUE & useSass = TRUE & websocket = spring-websocket"; 8; 0.03; 0.08
+"databaseType = sql & Docker = TRUE & prodDatabaseType = postgresql & buildTool = gradle"; 4; 0.03; 0.08
+"authenticationType = uaa & devDatabaseType = mariadb"; 2; 0.02; 0.06
+"websocket = spring-websocket & searchEngine = no & applicationType = monolith & clusteredHttpSession = no & buildTool = maven & prodDatabaseType = mysql & hibernateCache = ehcache & devDatabaseType = DiskBased"; 8; 0.02; 0.06
+"clusteredHttpSession = hazelcast & hibernateCache = ehcache & searchEngine = no & websocket = no & prodDatabaseType = mysql & buildTool = maven & useSass = FALSE"; 7; 0.02; 0.06
+"clusteredHttpSession = hazelcast & devDatabaseType = mysql & searchEngine = no & hibernateCache = no & websocket = spring-websocket"; 5; 0.02; 0.06
+"devDatabaseType = mysql & buildTool = gradle & hibernateCache = ehcache & websocket = spring-websocket"; 4; 0.02; 0.06
+"searchEngine = elasticsearch & buildTool = maven & clusteredHttpSession = hazelcast & useSass = TRUE & hibernateCache = no & websocket = no & devDatabaseType = DiskBased"; 7; 0.02; 0.06
+"prodDatabaseType = mariadb & clusteredHttpSession = no & useSass = FALSE"; 3; 0.02; 0.06
+"databaseType = sql & Docker = TRUE & devDatabaseType = InMemory & prodDatabaseType = mariadb & enableTranslation = TRUE"; 5; 0.02; 0.06
+"databaseType = sql & Docker = TRUE & devDatabaseType = mysql & clusteredHttpSession = hazelcast & websocket = no & searchEngine = no"; 6; 0.02; 0.06
+"databaseType = sql & Docker = TRUE & devDatabaseType = mysql & clusteredHttpSession = hazelcast & useSass = TRUE & enableTranslation = FALSE"; 6; 0.02; 0.06
+"databaseType = sql & Docker = TRUE & devDatabaseType = DiskBased & clusteredHttpSession = no & prodDatabaseType = mysql & hibernateCache = hazelcast"; 6; 0.02; 0.06
+"useSass = TRUE & authenticationType = oauth2 & searchEngine = elasticsearch & websocket = no & devDatabaseType = mysql & clusteredHttpSession = no"; 6; 0.01; 0.03
+"useSass = TRUE & authenticationType = oauth2 & prodDatabaseType = postgresql & clusteredHttpSession = no & hibernateCache = hazelcast & searchEngine = elasticsearch"; 6; 0.01; 0.03
+"devDatabaseType = mariadb & clusteredHttpSession = hazelcast & enableTranslation = FALSE & websocket = no"; 4; 0.01; 0.03
+"authenticationType = oauth2 & prodDatabaseType = mysql & searchEngine = elasticsearch & useSass = FALSE & buildTool = gradle & hibernateCache = hazelcast & devDatabaseType = DiskBased"; 7; 0.01; 0.03
+"authenticationType = oauth2 & devDatabaseType = InMemory & buildTool = maven & hibernateCache = no & prodDatabaseType = mysql"; 5; 0.01; 0.03
+"authenticationType = oauth2 & useSass = TRUE & prodDatabaseType = postgresql & devDatabaseType = InMemory & clusteredHttpSession = hazelcast & buildTool = maven & searchEngine = elasticsearch"; 7; 0.01; 0.03
+"authenticationType = oauth2 & websocket = spring-websocket & enableTranslation = FALSE & devDatabaseType = postgresql"; 4; 0.01; 0.03
+"authenticationType = oauth2 & devDatabaseType = mysql & enableTranslation = FALSE & searchEngine = elasticsearch & websocket = spring-websocket"; 5; 0.01; 0.03
+"authenticationType = oauth2 & devDatabaseType = postgresql & hibernateCache = ehcache & clusteredHttpSession = hazelcast & enableTranslation = TRUE"; 5; 0.01; 0.03
+"authenticationType = oauth2 & buildTool = gradle & hibernateCache = hazelcast & useSass = TRUE & enableTranslation = TRUE & searchEngine = no"; 6; 0.01; 0.03
+"authenticationType = oauth2 & devDatabaseType = postgresql & searchEngine = no & hibernateCache = no"; 4; 0.01; 0.03
+"authenticationType = oauth2 & enableTranslation = FALSE & prodDatabaseType = mariadb & useSass = FALSE"; 4; 0.01; 0.03
+"authenticationType = oauth2 & devDatabaseType = postgresql & websocket = spring-websocket & useSass = FALSE & clusteredHttpSession = hazelcast"; 5; 0.01; 0.03
+"authenticationType = oauth2 & hibernateCache = no & prodDatabaseType = postgresql & searchEngine = no"; 4; 0.01; 0.03
+"authenticationType = oauth2 & devDatabaseType = mysql & clusteredHttpSession = hazelcast & enableTranslation = TRUE"; 4; 0.01; 0.03
+"authenticationType = oauth2 & devDatabaseType = DiskBased & prodDatabaseType = postgresql & clusteredHttpSession = no & useSass = TRUE & hibernateCache = ehcache"; 6; 0.01; 0.03
+"authenticationType = oauth2 & devDatabaseType = InMemory & prodDatabaseType = mysql & buildTool = gradle & hibernateCache = no & websocket = spring-websocket"; 6; 0.01; 0.03
+"authenticationType = oauth2 & prodDatabaseType = mysql & devDatabaseType = DiskBased & websocket = no & useSass = FALSE & hibernateCache = ehcache"; 6; 0.01; 0.03
+"authenticationType = oauth2 & prodDatabaseType = mariadb"; 2; 0.01; 0.03
+"authenticationType = oauth2 & devDatabaseType = DiskBased & buildTool = gradle & hibernateCache = hazelcast"; 4; 0.01; 0.03
+"authenticationType = oauth2 & devDatabaseType = DiskBased & useSass = FALSE & hibernateCache = no & searchEngine = elasticsearch & prodDatabaseType = postgresql"; 6; 0.01; 0.03
+"authenticationType = oauth2 & devDatabaseType = DiskBased & buildTool = gradle & enableTranslation = TRUE"; 4; 0.01; 0.03
+"authenticationType = oauth2 & devDatabaseType = DiskBased & clusteredHttpSession = no & enableTranslation = FALSE & websocket = spring-websocket & hibernateCache = hazelcast"; 6; 0.01; 0.03
+"authenticationType = oauth2 & devDatabaseType = DiskBased & prodDatabaseType = mysql & websocket = no & enableTranslation = FALSE"; 5; 0.01; 0.03
+"authenticationType = oauth2 & devDatabaseType = DiskBased & hibernateCache = ehcache & enableTranslation = FALSE & prodDatabaseType = postgresql"; 5; 0.01; 0.03
+"authenticationType = oauth2 & devDatabaseType = DiskBased & hibernateCache = hazelcast & useSass = FALSE"; 4; 0.01; 0.03
+"authenticationType = oauth2 & devDatabaseType = InMemory & searchEngine = no & useSass = TRUE"; 4; 0.01; 0.03
+"authenticationType = oauth2 & devDatabaseType = InMemory & enableTranslation = TRUE & useSass = FALSE & searchEngine = elasticsearch & buildTool = gradle"; 6; 0.01; 0.03
+"authenticationType = oauth2 & devDatabaseType = InMemory & hibernateCache = ehcache & buildTool = maven & enableTranslation = TRUE"; 5; 0.01; 0.03
+"authenticationType = oauth2 & devDatabaseType = DiskBased"; 2; 0.01; 0.03
+"authenticationType = oauth2 & devDatabaseType = InMemory & searchEngine = no & hibernateCache = ehcache"; 4; 0.01; 0.03
+"authenticationType = oauth2 & devDatabaseType = InMemory & clusteredHttpSession = no & hibernateCache = ehcache & buildTool = gradle"; 5; 0.01; 0.03
+"authenticationType = oauth2 & devDatabaseType = InMemory & prodDatabaseType = postgresql & hibernateCache = hazelcast & websocket = no & searchEngine = elasticsearch"; 6; 0.01; 0.03
+"authenticationType = oauth2 & useSass = TRUE & websocket = spring-websocket"; 3; 0.01; 0.03
+"authenticationType = oauth2 & useSass = TRUE"; 2; 0.01; 0.03
+"authenticationType = oauth2 & websocket = spring-websocket & clusteredHttpSession = hazelcast & prodDatabaseType = mysql"; 4; 0.01; 0.03
