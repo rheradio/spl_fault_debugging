@@ -32,7 +32,7 @@ Our experimental data is organized in the following directories:
 
 ## Testing Configurable Software Systems: The Failure Observation Challenge
 
-In [SPLC'2020](http://splc2020.net/), Ferreira et al. proposed a [dataset](https://fischerjf.github.io/challenge/) with 22 configurable software systems and an extensive test suite. After checking that LEM2 works better than CN2 and AQ, we applied LEM2 to induce the rules that explain the faults detected in the test suite. Of the 22 systems, only 15 have faults. Therefore, 7 systems were discarded for our experiments.
+In [SPLC'2020](http://splc2020.net/), Ferreira et al. proposed a [dataset](https://fischerjf.github.io/challenge/) with 22 configurable software systems and an extensive test suite. 
 
 Our experimental data is organized in the following directories:
 * [original_data](https://github.com/rheradio/spl_fault_debugging/tree/master/splc2020_challenge/original_data) includes the data in their original format, which is sparsed in several files stored in directories [failuresFound](https://github.com/rheradio/spl_fault_debugging/tree/master/splc2020_challenge/original_data/failuresFound) and [All_valid_conf](https://github.com/rheradio/spl_fault_debugging/tree/master/splc2020_challenge/original_data/workspace_IncLing/Tools/All_valid_conf) 
@@ -41,3 +41,4 @@ Our experimental data is organized in the following directories:
   + [induce_rules.r](https://github.com/rheradio/spl_fault_debugging/blob/master/splc2020_challenge/script_code/induce_rules.R) induces the rules that explain the faults detected in the test cases.
  * [formatted_data](https://github.com/rheradio/spl_fault_debugging/tree/master/splc2020_challenge/formatted_data) stores the data formated with [format_data.r](https://github.com/rheradio/spl_fault_debugging/blob/master/splc2020_challenge/script_code/format_data.r).
  * [induced_rules](https://github.com/rheradio/spl_fault_debugging/tree/master/splc2020_challenge/induced_rules) includes the generated rules.
+ * [rule_statistics](https://github.com/rheradio/spl_fault_debugging/tree/master/splc2020_challenge/rule_statistics) includes the statistics generated with [induce_rules.r](https://github.com/rheradio/spl_fault_debugging/blob/master/splc2020_challenge/script_code/induce_rules.R).
